@@ -1,0 +1,74 @@
+2025-05-13 18:58:49,160 - INFO - - Input IDs: torch.Size([6762, 256])
+2025-05-13 18:58:49,161 - INFO - - Attention Masks: torch.Size([6762, 256])
+2025-05-13 18:58:49,161 - INFO - - Sentiment Labels: torch.Size([6762])
+2025-05-13 18:58:49,161 - INFO - - Aspect Labels: torch.Size([6762, 5])
+2025-05-13 18:58:54,948 - INFO - 
+Epoch 1/10
+2025-05-13 19:02:09,242 - INFO - Average training loss: 1.0687
+2025-05-13 19:02:14,614 - INFO - Sentiment - Accuracy: 0.7885, F1: 0.7355
+2025-05-13 19:02:14,614 - INFO - Sentiment - Precision: 0.7103, Recall: 0.7885
+2025-05-13 19:02:14,615 - INFO - Aspect - F1 Micro: 0.8506, F1 Macro: 0.3777
+2025-05-13 19:02:14,615 - INFO - Aspect - Precision: 0.8866, Recall: 0.8175
+2025-05-13 19:02:17,124 - INFO - 
+Epoch 2/10
+2025-05-13 19:05:24,565 - INFO - Average training loss: 0.7991
+2025-05-13 19:05:29,818 - INFO - Sentiment - Accuracy: 0.7796, F1: 0.7580
+2025-05-13 19:05:29,818 - INFO - Sentiment - Precision: 0.7400, Recall: 0.7796
+2025-05-13 19:05:29,819 - INFO - Aspect - F1 Micro: 0.9061, F1 Macro: 0.6242
+2025-05-13 19:05:29,819 - INFO - Aspect - Precision: 0.9044, Recall: 0.9078
+2025-05-13 19:05:31,773 - INFO - 
+Epoch 3/10
+2025-05-13 19:08:33,192 - INFO - Average training loss: 0.6634
+2025-05-13 19:08:38,915 - INFO - Sentiment - Accuracy: 0.7885, F1: 0.7655
+2025-05-13 19:08:38,915 - INFO - Sentiment - Precision: 0.7549, Recall: 0.7885
+2025-05-13 19:08:38,915 - INFO - Aspect - F1 Micro: 0.9235, F1 Macro: 0.7048
+2025-05-13 19:08:38,915 - INFO - Aspect - Precision: 0.9066, Recall: 0.9411
+2025-05-13 19:08:40,915 - INFO - 
+Epoch 4/10
+2025-05-13 19:11:51,076 - INFO - Average training loss: 0.5570
+2025-05-13 19:11:56,784 - INFO - Sentiment - Accuracy: 0.7885, F1: 0.7736
+2025-05-13 19:11:56,784 - INFO - Sentiment - Precision: 0.7658, Recall: 0.7885
+2025-05-13 19:11:56,785 - INFO - Aspect - F1 Micro: 0.9405, F1 Macro: 0.7290
+2025-05-13 19:11:56,785 - INFO - Aspect - Precision: 0.9278, Recall: 0.9534
+2025-05-13 19:11:58,830 - INFO - 
+Epoch 5/10
+2025-05-13 19:15:07,284 - INFO - Average training loss: 0.4697
+2025-05-13 19:15:13,089 - INFO - Sentiment - Accuracy: 0.7796, F1: 0.7726
+2025-05-13 19:15:13,089 - INFO - Sentiment - Precision: 0.7678, Recall: 0.7796
+2025-05-13 19:15:13,089 - INFO - Aspect - F1 Micro: 0.9427, F1 Macro: 0.7370
+2025-05-13 19:15:13,093 - INFO - Aspect - Precision: 0.9322, Recall: 0.9534
+2025-05-13 19:15:15,188 - INFO - 
+Epoch 6/10
+2025-05-13 19:18:26,178 - INFO - Average training loss: 0.4026
+2025-05-13 19:18:31,737 - INFO - Sentiment - Accuracy: 0.7914, F1: 0.7797
+2025-05-13 19:18:31,737 - INFO - Sentiment - Precision: 0.7749, Recall: 0.7914
+2025-05-13 19:18:31,737 - INFO - Aspect - F1 Micro: 0.9486, F1 Macro: 0.7472
+2025-05-13 19:18:31,737 - INFO - Aspect - Precision: 0.9504, Recall: 0.9468
+2025-05-13 19:18:33,835 - INFO - 
+Epoch 7/10
+2025-05-13 19:21:47,907 - INFO - Average training loss: 0.3301
+2025-05-13 19:21:53,513 - INFO - Sentiment - Accuracy: 0.7737, F1: 0.7706
+2025-05-13 19:21:53,514 - INFO - Sentiment - Precision: 0.7786, Recall: 0.7737
+2025-05-13 19:21:53,514 - INFO - Aspect - F1 Micro: 0.9544, F1 Macro: 0.7522
+2025-05-13 19:21:53,514 - INFO - Aspect - Precision: 0.9535, Recall: 0.9553
+2025-05-13 19:21:53,518 - INFO - 
+Epoch 8/10
+2025-05-13 19:25:05,740 - INFO - Average training loss: 0.2825
+2025-05-13 19:25:12,307 - INFO - Sentiment - Accuracy: 0.7929, F1: 0.7856
+2025-05-13 19:25:12,307 - INFO - Sentiment - Precision: 0.7806, Recall: 0.7929
+2025-05-13 19:25:12,308 - INFO - Aspect - F1 Micro: 0.9537, F1 Macro: 0.7493
+2025-05-13 19:25:12,308 - INFO - Aspect - Precision: 0.9483, Recall: 0.9591
+2025-05-13 19:25:14,299 - INFO - 
+Epoch 9/10
+2025-05-13 19:28:28,117 - INFO - Average training loss: 0.2454
+2025-05-13 19:28:33,602 - INFO - Sentiment - Accuracy: 0.7944, F1: 0.7883
+2025-05-13 19:28:33,603 - INFO - Sentiment - Precision: 0.7859, Recall: 0.7944
+2025-05-13 19:28:33,603 - INFO - Aspect - F1 Micro: 0.9591, F1 Macro: 0.7634
+2025-05-13 19:28:33,603 - INFO - Aspect - Precision: 0.9600, Recall: 0.9582
+2025-05-13 19:28:35,606 - INFO - 
+Epoch 10/10
+2025-05-13 19:31:48,587 - INFO - Average training loss: 0.2181
+2025-05-13 19:31:54,039 - INFO - Sentiment - Accuracy: 0.7796, F1: 0.7771
+2025-05-13 19:31:54,039 - INFO - Sentiment - Precision: 0.7773, Recall: 0.7796
+2025-05-13 19:31:54,040 - INFO - Aspect - F1 Micro: 0.9587, F1 Macro: 0.7640
+2025-05-13 19:31:54,040 - INFO - Aspect - Precision: 0.9582, Recall: 0.9591

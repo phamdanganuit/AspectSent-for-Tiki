@@ -1,0 +1,25 @@
+=== BÁO CÁO ĐÁNH GIÁ MÔ HÌNH ===
+
+--- Kết quả phân loại SENTIMENT ---
+              precision    recall  f1-score   support
+
+rất tiêu cực       0.63      0.42      0.50        62
+    tiêu cực       0.19      0.13      0.16        38
+   trung lập       0.33      0.38      0.35        64
+    tích cực       0.38      0.39      0.39       153
+rất tích cực       0.91      0.93      0.92      1035
+
+    accuracy                           0.79      1352
+   macro avg       0.49      0.45      0.46      1352
+weighted avg       0.79      0.79      0.79      1352
+
+--- Kết quả phân loại ASPECT ---
+F1 Score (micro): 0.9583
+F1 Score (macro): 0.7564
+
+Chi tiết theo từng aspect:
+other - Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Support: 0.0
+cskh - Precision: 0.9717, Recall: 0.9279, F1: 0.9493, Support: 111.0
+quality - Precision: 0.9435, Recall: 0.9714, F1: 0.9572, Support: 1152.0
+price - Precision: 0.9404, Recall: 0.8308, F1: 0.8822, Support: 266.0
+ship - Precision: 0.9918, Recall: 0.9950, F1: 0.9934, Support: 606.0

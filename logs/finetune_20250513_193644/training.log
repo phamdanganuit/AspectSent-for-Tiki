@@ -1,0 +1,35 @@
+2025-05-13 19:36:44,132 - INFO - === BẮT ĐẦU ĐÁNH GIÁ MÔ HÌNH PHOBERT ===
+2025-05-13 19:36:44,132 - INFO - Tìm thấy mô hình tại: D:\University\SEM6_2024-2025\DS221\Term Project\models\phobert_finetuned\best_model.pt
+2025-05-13 19:36:44,134 - INFO - Kích thước mô hình: 521.82 MB
+2025-05-13 19:36:44,163 - INFO - Sử dụng thiết bị: cuda
+2025-05-13 19:36:44,163 - INFO - Đang tải dữ liệu cho đánh giá...
+2025-05-13 19:36:44,181 - INFO - Đã tải tập test với 1352 mẫu
+2025-05-13 19:36:44,181 - INFO - Đang tải mô hình...
+2025-05-13 19:36:50,396 - INFO - Đã tải mô hình thành công
+2025-05-13 19:36:50,396 - INFO - Bắt đầu đánh giá mô hình...
+2025-05-13 19:37:01,341 - INFO - Đã lưu confusion matrix tại: D:\University\SEM6_2024-2025\DS221\Term Project\logs\evaluate_20250513_193644\confusion_matrix.png
+2025-05-13 19:37:01,391 - INFO - Đã lưu báo cáo đánh giá chi tiết vào D:\University\SEM6_2024-2025\DS221\Term Project\logs\evaluate_20250513_193644\evaluation_report.txt
+2025-05-13 19:37:01,391 - INFO - Đã lưu dự đoán chi tiết vào D:\University\SEM6_2024-2025\DS221\Term Project\logs\evaluate_20250513_193644\predictions.csv
+2025-05-13 19:37:01,393 - INFO - 
+=== KẾT QUẢ ĐÁNH GIÁ TỔNG QUAN ===
+2025-05-13 19:37:01,393 - INFO - Sentiment - Accuracy: 0.7936
+2025-05-13 19:37:01,393 - INFO - Sentiment - F1 Score: 0.7899
+2025-05-13 19:37:01,393 - INFO - Aspect - F1 Micro: 0.9583
+2025-05-13 19:37:01,393 - INFO - Aspect - F1 Macro: 0.7564
+2025-05-13 19:37:01,393 - INFO - 
+--- Phân tích chi tiết từng lớp Sentiment ---
+2025-05-13 19:37:01,393 - INFO - rất tiêu cực: F1=0.5049, Support=62.0
+2025-05-13 19:37:01,393 - INFO - tiêu cực: F1=0.1562, Support=38.0
+2025-05-13 19:37:01,393 - INFO - trung lập: F1=0.3504, Support=64.0
+2025-05-13 19:37:01,393 - INFO - tích cực: F1=0.3859, Support=153.0
+2025-05-13 19:37:01,393 - INFO - rất tích cực: F1=0.9172, Support=1035.0
+2025-05-13 19:37:01,393 - INFO - 
+--- Phân tích chi tiết từng Aspect ---
+2025-05-13 19:37:01,396 - INFO - other: F1=0.0000, Support=0
+2025-05-13 19:37:01,396 - INFO - cskh: F1=0.9493, Support=111
+2025-05-13 19:37:01,396 - INFO - quality: F1=0.9572, Support=1152
+2025-05-13 19:37:01,396 - INFO - price: F1=0.8822, Support=266
+2025-05-13 19:37:01,396 - INFO - ship: F1=0.9934, Support=606
+2025-05-13 19:37:01,396 - INFO - 
+Kết quả đánh giá chi tiết và biểu đồ đã được lưu tại: D:\University\SEM6_2024-2025\DS221\Term Project\logs\evaluate_20250513_193644
+2025-05-13 19:37:01,396 - INFO - === KẾT THÚC ĐÁNH GIÁ MÔ HÌNH PHOBERT ===

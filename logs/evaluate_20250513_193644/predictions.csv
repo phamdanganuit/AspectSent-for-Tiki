@@ -1,0 +1,1353 @@
+true_sentiment,pred_sentiment,is_correct,true_other,pred_other,true_cskh,pred_cskh,true_quality,pred_quality,true_price,pred_price,true_ship,pred_ship
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,rất tiêu cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tiêu cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,0,1.0,1
+tiêu cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+trung lập,tích cực,False,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tiêu cực,trung lập,False,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tiêu cực,trung lập,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+tiêu cực,trung lập,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tiêu cực,rất tiêu cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,0.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,tích cực,True,0.0,0,1.0,1,0.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,tiêu cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+trung lập,tích cực,False,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+trung lập,tiêu cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,tiêu cực,False,0.0,0,1.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+trung lập,trung lập,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+trung lập,trung lập,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+trung lập,trung lập,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,0.0,0
+trung lập,rất tích cực,False,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+trung lập,trung lập,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,tiêu cực,False,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+trung lập,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,trung lập,False,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+tích cực,tiêu cực,False,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tiêu cực,rất tiêu cực,True,0.0,0,0.0,0,1.0,1,0.0,1,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tiêu cực,rất tích cực,False,0.0,0,0.0,0,0.0,0,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,1.0,1,0.0,0
+tiêu cực,tiêu cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+trung lập,rất tích cực,False,0.0,0,0.0,0,1.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,0.0,0,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tiêu cực,rất tiêu cực,False,0.0,0,0.0,0,1.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tiêu cực,rất tiêu cực,True,0.0,0,1.0,1,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tiêu cực,tiêu cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,0,0.0,0,1.0,1
+rất tiêu cực,trung lập,False,0.0,0,0.0,0,0.0,1,1.0,1,1.0,1
+tích cực,trung lập,False,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,trung lập,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,trung lập,False,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+trung lập,trung lập,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,1.0,1,0.0,0
+trung lập,trung lập,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tiêu cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+trung lập,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,0,1.0,1
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+trung lập,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,rất tiêu cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+trung lập,trung lập,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,trung lập,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tiêu cực,rất tiêu cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+trung lập,trung lập,True,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+tiêu cực,trung lập,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,1.0,1,0.0,1,0.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,1.0,1,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,trung lập,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,1.0,1,1.0,1,1.0,1,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,rất tiêu cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tiêu cực,False,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+tiêu cực,tiêu cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+trung lập,rất tiêu cực,False,0.0,0,0.0,0,1.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+tiêu cực,rất tiêu cực,False,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+trung lập,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tiêu cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+trung lập,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,rất tiêu cực,True,0.0,0,0.0,0,0.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,0.0,0,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+tích cực,trung lập,False,0.0,0,0.0,0,0.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,0,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tiêu cực,rất tiêu cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+tiêu cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+trung lập,rất tích cực,False,0.0,0,0.0,0,0.0,0,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+trung lập,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,rất tiêu cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,1.0,1,0.0,0
+tích cực,trung lập,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+trung lập,trung lập,True,0.0,0,0.0,0,1.0,1,0.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,0,1.0,1,0.0,1
+rất tiêu cực,rất tích cực,False,0.0,0,1.0,1,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,rất tiêu cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+trung lập,rất tích cực,False,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,1.0,1,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tiêu cực,rất tiêu cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+trung lập,trung lập,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+trung lập,trung lập,True,0.0,0,1.0,1,1.0,1,0.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+trung lập,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,0.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+trung lập,trung lập,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tiêu cực,tiêu cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+trung lập,trung lập,True,0.0,0,0.0,0,1.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,trung lập,False,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,0,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+trung lập,tích cực,False,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+tích cực,trung lập,False,0.0,0,0.0,0,1.0,0,0.0,0,1.0,1
+rất tiêu cực,rất tiêu cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,trung lập,False,0.0,0,0.0,0,1.0,0,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,0,1.0,1,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,0.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,0,1.0,1,0.0,0
+rất tiêu cực,tiêu cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,0.0,0,0.0,0,0.0,0
+tích cực,trung lập,False,0.0,0,0.0,0,0.0,1,1.0,1,0.0,0
+rất tiêu cực,trung lập,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,0,1.0,1,1.0,1,1.0,1
+tiêu cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+trung lập,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,tiêu cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,1.0,0,0.0,0
+tiêu cực,rất tiêu cực,False,0.0,0,1.0,1,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,1.0,1,0.0,0
+trung lập,tiêu cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,trung lập,False,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+trung lập,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+tiêu cực,trung lập,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,trung lập,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+trung lập,rất tích cực,False,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+tiêu cực,trung lập,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,0.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,rất tiêu cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tiêu cực,trung lập,False,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tiêu cực,rất tiêu cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,0.0,0,1.0,1,0.0,0
+rất tiêu cực,tiêu cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+trung lập,rất tích cực,False,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+trung lập,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+trung lập,trung lập,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tiêu cực,tiêu cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,trung lập,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,trung lập,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,tích cực,False,0.0,0,1.0,1,0.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tiêu cực,tiêu cực,False,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tiêu cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+trung lập,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+trung lập,trung lập,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,rất tiêu cực,True,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,tiêu cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+trung lập,trung lập,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,tiêu cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+trung lập,trung lập,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tiêu cực,trung lập,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,1.0,1,0.0,1,1.0,1,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,trung lập,False,0.0,0,0.0,0,0.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+tiêu cực,tiêu cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+trung lập,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,0,0.0,0,0.0,0,1.0,1
+tích cực,tích cực,True,0.0,0,0.0,0,0.0,0,1.0,1,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+trung lập,trung lập,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,0.0,1,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tiêu cực,rất tiêu cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,rất tiêu cực,True,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,rất tiêu cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tiêu cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tiêu cực,False,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tiêu cực,trung lập,False,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,1.0,1,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,trung lập,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,0,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,0.0,0,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tiêu cực,trung lập,False,0.0,0,0.0,0,0.0,1,1.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+trung lập,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tiêu cực,rất tiêu cực,True,0.0,0,1.0,1,1.0,1,1.0,1,1.0,1
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tiêu cực,trung lập,False,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tiêu cực,rất tiêu cực,True,0.0,0,0.0,1,1.0,1,1.0,1,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tiêu cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+tiêu cực,rất tích cực,False,0.0,0,1.0,1,0.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+trung lập,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,rất tiêu cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,tiêu cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,tiêu cực,False,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,tiêu cực,False,0.0,0,1.0,1,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+trung lập,rất tiêu cực,False,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,1.0,1,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,tích cực,False,0.0,0,1.0,1,0.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,0,0.0,0,1.0,1
+tiêu cực,rất tiêu cực,False,0.0,0,1.0,1,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,rất tiêu cực,True,0.0,0,1.0,1,0.0,1,0.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,1,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,rất tiêu cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tiêu cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,0.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,1.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,0,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,1,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,tiêu cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,0.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tiêu cực,trung lập,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tiêu cực,tích cực,False,0.0,0,0.0,1,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+trung lập,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,1.0,1,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tiêu cực,tiêu cực,False,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,trung lập,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,0,0.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,0,0.0,0,0.0,0
+trung lập,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,1.0,1,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tiêu cực,tích cực,False,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tiêu cực,trung lập,False,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tiêu cực,rất tích cực,False,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,1.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tiêu cực,rất tiêu cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+trung lập,trung lập,True,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tiêu cực,trung lập,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+trung lập,tích cực,False,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tiêu cực,trung lập,False,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tiêu cực,rất tiêu cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,0.0,0,0.0,0,0.0,0
+rất tiêu cực,rất tiêu cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,0.0,0,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+trung lập,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,1.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,0,1.0,0,0.0,0,0.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tiêu cực,trung lập,False,0.0,0,1.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,0.0,0,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tiêu cực,tích cực,False,0.0,0,0.0,0,0.0,1,0.0,0,1.0,0
+tích cực,trung lập,False,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+trung lập,rất tích cực,False,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,trung lập,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,1.0,1,0.0,0
+tiêu cực,trung lập,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tiêu cực,trung lập,False,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tiêu cực,trung lập,False,0.0,0,0.0,0,0.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tiêu cực,rất tiêu cực,False,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tiêu cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+trung lập,trung lập,True,0.0,0,0.0,0,0.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tiêu cực,rất tiêu cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+trung lập,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,1.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+tích cực,trung lập,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+trung lập,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+trung lập,trung lập,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tiêu cực,trung lập,False,0.0,0,0.0,0,1.0,1,1.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,trung lập,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tiêu cực,rất tiêu cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,0.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+trung lập,tiêu cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+trung lập,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tiêu cực,trung lập,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,1.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tiêu cực,tiêu cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+trung lập,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,1.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,0.0,0,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+trung lập,trung lập,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,1.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,0,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+tiêu cực,trung lập,False,0.0,0,1.0,1,1.0,1,1.0,1,1.0,1
+tích cực,rất tích cực,False,0.0,0,0.0,0,0.0,0,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,0.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,1.0,1,1.0,1
+trung lập,trung lập,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+trung lập,rất tiêu cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,1.0,1
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+trung lập,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+trung lập,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,1
+rất tích cực,trung lập,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tích cực,trung lập,False,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+trung lập,trung lập,True,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,1,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,1.0,1,1.0,1,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,1.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+tiêu cực,tiêu cực,True,0.0,0,0.0,0,0.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+tích cực,rất tích cực,False,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,0.0,0
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,0.0,0,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,0.0,0,1.0,1,0.0,0,1.0,1
+rất tích cực,rất tích cực,True,0.0,0,1.0,1,1.0,1,0.0,0,0.0,0

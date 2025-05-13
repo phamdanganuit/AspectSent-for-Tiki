@@ -13,7 +13,9 @@ from src.data_preprocessing.clean_data import main as clean_data
 from src.data_labeling.label_aspects import main as label_aspects
 from src.data_preprocessing.normalize_text import main as normalize_text
 from src.data_preprocessing.normalize_text import main as normalize_data
-from src.data_embedding.phobert_embedding import main as create_embeddings
+# from src.data_embedding.phobert_embedding import main as create_embeddings
+# from src.data_embedding.phobert_finetune import main as finetune_phobert
+# from src.data_embedding.sentiment_aspect_extraction import main as extract_sentiment_aspect
 
 def run_pipeline(steps=None):
     """
@@ -39,7 +41,13 @@ def run_pipeline(steps=None):
         'normalize_data': normalize_data,
         
         # Bước 5: Tạo embedding với PhoBERT
-        'create_embeddings': create_embeddings
+        # 'create_embeddings': create_embeddings,
+        
+        # Bước 6: Fine-tune PhoBERT cho cả sentiment và aspect
+        # 'finetune_phobert': finetune_phobert,
+        
+        # Bước 7: Trích xuất sentiment và aspect từ mô hình đã fine-tune
+        # 'extract_sentiment_aspect': extract_sentiment_aspect
     }
     
     if steps is None:
@@ -90,7 +98,9 @@ def parse_args():
             'clean_data',
             'label_aspects',
             'normalize_text',
-            'create_embeddings'
+            'create_embeddings',
+            # 'finetune_phobert',
+            # 'extract_sentiment_aspect'
         ],
         help='Các bước cần chạy (mặc định: chạy tất cả các bước)'
     )
