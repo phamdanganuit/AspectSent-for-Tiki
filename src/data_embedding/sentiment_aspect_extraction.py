@@ -8,7 +8,7 @@ from transformers import AutoModel, AutoTokenizer
 from tqdm import tqdm
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-from src.utils.constants import GOLD_DIR, SILVER_DIR, NORMALIZED_REVIEWS_FILE
+from src.utils.constants import GOLD_DIR, SILVER_DIR, TOKENIZED_REVIEWS_FILE
 
 # Đường dẫn đến mô hình đã fine-tune
 MODELS_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "models")
@@ -37,10 +37,42 @@ NUM_SENTIMENT_CLASSES = 5
 NUM_ASPECT_CLASSES = 5
 MAX_LENGTH = 256
 
-# Mô hình đa nhiệm vụ dựa trên PhoBERT (sao chép từ phobert_finetune.py)
-class MultiTaskPhoBERT(nn.Module):
+# Khối CNN 1D
+class CNNBlock(nn.Module):
+    def __init__(self, in_channels, out_channels, kernel_sizes=[3, 4, 5]):
+        super(CNNBlock, self).__init__()
+        
+        # Các lớp CNN với các kích thước kernel khác nhau
+        self.convs = nn.ModuleList([
+            nn.Conv1d(in_channels=in_channels, 
+                     out_channels=out_channels, 
+                     kernel_size=k) 
+            for k in kernel_sizes
+        ])
+        
+    def forward(self, x):
+        # x: batch_size x sequence_length x embedding_dim
+        
+        # Chuyển đổi sang định dạng cho CNN: batch_size x embedding_dim x sequence_length
+        x = x.permute(0, 2, 1)
+        
+        # Áp dụng các lớp CNN và max-over-time pooling
+        conv_outputs = []
+        for conv in self.convs:
+            conv_out = conv(x)
+            conv_out = torch.relu(conv_out)
+            # Max pooling
+            pool_out = torch.max(conv_out, dim=2)[0]
+            conv_outputs.append(pool_out)
+        
+        # Ghép các đầu ra từ các kích thước kernel khác nhau
+        combined = torch.cat(conv_outputs, dim=1)
+        return combined
+
+# Mô hình đa nhiệm vụ dựa trên PhoBERT kết hợp CNN
+class MultiTaskPhoBERTCNN(nn.Module):
     def __init__(self, num_sentiment_classes, num_aspect_classes):
-        super(MultiTaskPhoBERT, self).__init__()
+        super(MultiTaskPhoBERTCNN, self).__init__()
         
         # Tải pretrained PhoBERT
         self.phobert = AutoModel.from_pretrained("vinai/phobert-base")
@@ -48,26 +80,52 @@ class MultiTaskPhoBERT(nn.Module):
         # Lớp dropout
         self.dropout = nn.Dropout(0.1)
         
-        # Các lớp phân loại
+        # Kích thước ẩn của PhoBERT
         hidden_size = self.phobert.config.hidden_size
         
+        # Mạng CNN cho trích xuất đặc trưng từ chuỗi đầu ra PhoBERT
+        self.cnn_block = CNNBlock(in_channels=hidden_size, out_channels=128)
+        
+        # Kích thước đầu ra của CNN (128 cho mỗi kích thước kernel, 3 kích thước kernel)
+        cnn_output_size = 128 * 3
+        
+        # Các lớp phân loại
         # Nhiệm vụ 1: Phân loại sentiment (multi-class)
-        self.sentiment_classifier = nn.Linear(hidden_size, num_sentiment_classes)
+        self.sentiment_classifier = nn.Sequential(
+            nn.Linear(hidden_size + cnn_output_size, 256),
+            nn.ReLU(),
+            nn.Dropout(0.1),
+            nn.Linear(256, num_sentiment_classes)
+        )
         
         # Nhiệm vụ 2: Phân loại aspect (multi-label)
-        self.aspect_classifier = nn.Linear(hidden_size, num_aspect_classes)
+        self.aspect_classifier = nn.Sequential(
+            nn.Linear(hidden_size + cnn_output_size, 256),
+            nn.ReLU(),
+            nn.Dropout(0.1),
+            nn.Linear(256, num_aspect_classes)
+        )
         
     def forward(self, input_ids, attention_mask):
-        # Lấy embedding từ PhoBERT
+        # Lấy đầu ra từ PhoBERT
         outputs = self.phobert(input_ids=input_ids, attention_mask=attention_mask)
         
         # Lấy embedding của token [CLS] (đầu tiên)
-        pooled_output = outputs.last_hidden_state[:, 0]
-        pooled_output = self.dropout(pooled_output)
+        cls_output = outputs.last_hidden_state[:, 0]
+        
+        # Lấy đầu ra chuỗi từ PhoBERT để đưa vào CNN
+        sequence_output = outputs.last_hidden_state
+        
+        # Trích xuất đặc trưng bằng CNN
+        cnn_features = self.cnn_block(sequence_output)
+        
+        # Kết hợp đặc trưng từ [CLS] và CNN
+        combined_features = torch.cat([cls_output, cnn_features], dim=1)
+        combined_features = self.dropout(combined_features)
         
         # Dự đoán cho từng nhiệm vụ
-        sentiment_logits = self.sentiment_classifier(pooled_output)
-        aspect_logits = self.aspect_classifier(pooled_output)
+        sentiment_logits = self.sentiment_classifier(combined_features)
+        aspect_logits = self.aspect_classifier(combined_features)
         
         return sentiment_logits, aspect_logits
 
@@ -82,7 +140,7 @@ class SentimentAspectPredictor:
         print(f"Đã tải tokenizer: {tokenizer_name}")
         
         # Tải mô hình
-        self.model = MultiTaskPhoBERT(NUM_SENTIMENT_CLASSES, NUM_ASPECT_CLASSES)
+        self.model = MultiTaskPhoBERTCNN(NUM_SENTIMENT_CLASSES, NUM_ASPECT_CLASSES)
         
         try:
             self.model.load_state_dict(torch.load(model_path, map_location=self.device))
@@ -187,7 +245,7 @@ class SentimentAspectPredictor:
         sentiment_preds, aspect_preds = self.predict(texts, batch_size)
         return self.format_predictions(sentiment_preds, aspect_preds)
 
-def process_file(input_file, output_file, text_column="reviews", batch_size=8):
+def process_file(input_file, output_file, text_column="tokenized_text", batch_size=8):
     """
     Xử lý file CSV để thêm dự đoán sentiment và aspect.
     
@@ -219,7 +277,7 @@ def process_file(input_file, output_file, text_column="reviews", batch_size=8):
         df['predicted_sentiment'] = [pred['sentiment'] for pred in predictions]
         df['predicted_sentiment_label'] = [pred['sentiment_label'] for pred in predictions]
         df['predicted_aspects'] = [','.join(pred['aspects']) for pred in predictions]
-        df['predicted_aspect_labels'] = [pred['aspect_labels'] for pred in predictions]
+        df['predicted_aspect_labels'] = [','.join(map(str, pred['aspect_labels'])) for pred in predictions]
         
         # Lưu kết quả
         df.to_csv(output_file, index=False)
@@ -238,11 +296,11 @@ def main():
         return
     
     # Đường dẫn file đầu vào/ra
-    input_file = NORMALIZED_REVIEWS_FILE
+    input_file = TOKENIZED_REVIEWS_FILE  # Sử dụng file đã tách từ thay vì file đã chuẩn hóa
     output_file = os.path.join(GOLD_DIR, "reviews_with_predictions.csv")
     
     # Xử lý file
-    process_file(input_file, output_file)
+    process_file(input_file, output_file, text_column="tokenized_text")
     
     print("=== KẾT THÚC QUÁ TRÌNH TRÍCH XUẤT SENTIMENT VÀ ASPECT ===")
 

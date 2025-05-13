@@ -5,6 +5,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import ast  # Để chuyển đổi chuỗi "[1, 2]" thành list [1, 2] một cách an toàn
 from datetime import datetime
 from torch import nn
 from torch.utils.data import Dataset, DataLoader, RandomSampler
@@ -25,7 +26,10 @@ os.makedirs(RUN_LOG_DIR, exist_ok=True)
 MODELS_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "models")
 os.makedirs(MODELS_DIR, exist_ok=True)
 
-# File dữ liệu đầu vào từ bước embedding
+# Đầu vào là file đã tokenized từ tokenize_text.py
+TOKENIZED_REVIEWS_FILE = os.path.join(GOLD_DIR, "tokenized_reviews.csv")
+
+# File dữ liệu đầu vào tạm thời sau khi embedding (để tiết kiệm thời gian khi chạy lại)
 INPUT_IDS_FILE = os.path.join(GOLD_DIR, "input_ids.pt")
 ATTENTION_MASKS_FILE = os.path.join(GOLD_DIR, "attention_masks.pt")
 SENTIMENT_LABELS_FILE = os.path.join(GOLD_DIR, "sentiment_labels.pt")
@@ -47,6 +51,7 @@ MAX_LENGTH = 256
 PATIENCE = 3  # Số epoch kiên nhẫn cho early stopping
 ASPECT_MAPPING = {0: 'other', 1: 'cskh', 2: 'quality', 3: 'price', 4: 'ship'}
 SENTIMENT_MAPPING = {0: 'rất tiêu cực', 1: 'tiêu cực', 2: 'trung lập', 3: 'tích cực', 4: 'rất tích cực'}
+SENTIMENT_ADJUSTMENT = -1  # Điều chỉnh nhãn sentiment từ [1-5] sang [0-4]
 
 # Thiết lập logging
 def setup_logger():
@@ -70,6 +75,144 @@ def set_seed(seed_value):
     torch.cuda.manual_seed_all(seed_value)
     np.random.seed(seed_value)
     logger.info(f"Đã thiết lập seed: {seed_value}")
+
+# --- Các hàm trợ giúp từ phobert_embedding.py ---
+def parse_aspect_string_to_list(aspect_str: str):
+    if pd.isna(aspect_str) or not isinstance(aspect_str, str) or not aspect_str.strip():
+        return []
+    try:
+        parsed_list = ast.literal_eval(aspect_str)
+        if isinstance(parsed_list, list):
+            return [int(item) for item in parsed_list if isinstance(item, (int, float))]
+        return []
+    except (ValueError, SyntaxError, TypeError):
+        return []
+
+def create_multi_hot_vector(codes_list: list, num_total_labels: int):
+    multi_hot = torch.zeros(num_total_labels, dtype=torch.float)
+    if codes_list:
+        valid_codes = [code for code in codes_list if 0 <= code < num_total_labels]
+        if valid_codes:
+            multi_hot[valid_codes] = 1.0
+    return multi_hot
+
+# Hàm mới để chuẩn bị dữ liệu từ file tokenized
+def prepare_data_from_tokenized(tokenized_file_path, tokenizer_name="vinai/phobert-base", 
+                              max_seq_length=MAX_LENGTH, num_aspects=NUM_ASPECT_CLASSES, 
+                              sentiment_adj=SENTIMENT_ADJUSTMENT):
+    """
+    Chuẩn bị dữ liệu cho fine-tuning từ file đã tách từ.
+    
+    Args:
+        tokenized_file_path: Đường dẫn đến file CSV chứa dữ liệu đã tách từ
+        tokenizer_name: Tên tokenizer PhoBERT
+        max_seq_length: Độ dài tối đa của chuỗi
+        num_aspects: Số lượng aspect
+        sentiment_adj: Điều chỉnh nhãn sentiment
+        
+    Returns:
+        Các tensor dữ liệu và metadata cho fine-tuning
+    """
+    # 1. Tải dữ liệu
+    try:
+        df = pd.read_csv(tokenized_file_path)
+        logger.info(f"Đã đọc {len(df)} dòng từ {tokenized_file_path}")
+    except Exception as e:
+        logger.error(f"Lỗi khi đọc file {tokenized_file_path}: {e}")
+        return None, None, None, None, None
+
+    if df.empty:
+        logger.error("DataFrame rỗng.")
+        return None, None, None, None, None
+
+    required_columns = ['tokenized_text', 'sentiment', 'aspect']
+    for col in required_columns:
+        if col not in df.columns:
+            logger.error(f"Lỗi: Thiếu cột '{col}' trong file đầu vào.")
+            return None, None, None, None, None
+            
+    # Xử lý NaN trong các cột quan trọng
+    df.dropna(subset=['tokenized_text', 'sentiment'], inplace=True)
+    df['tokenized_text'] = df['tokenized_text'].astype(str)
+    df['sentiment'] = pd.to_numeric(df['sentiment'], errors='coerce')
+    df.dropna(subset=['sentiment'], inplace=True)
+    df['sentiment'] = df['sentiment'].astype(int)
+
+    if df.empty:
+        logger.error("DataFrame trở nên rỗng sau khi loại bỏ NaN.")
+        return None, None, None, None, None
+
+    logger.info(f"Số dòng sau khi loại bỏ NaN: {len(df)}")
+
+    # 2. Xử lý cột 'aspect' thành list các mã số nếu chưa phải là list
+    logger.info("Đang xử lý cột 'aspect' thành danh sách mã số...")
+    
+    if df['aspect'].dtype == 'object':  # Nếu aspect chưa phải list mà là chuỗi
+        df['aspect_codes_list'] = df['aspect'].apply(parse_aspect_string_to_list)
+    else:
+        df['aspect_codes_list'] = df['aspect']  # Đã là list
+        
+    # 3. Lọc các dòng chỉ có aspect là 'other'
+    rows_before_filter = len(df)
+    df = df[df['aspect_codes_list'].apply(lambda x: x != [0])]  # 0 là 'other'
+
+    rows_after_filter = len(df)
+    logger.info(f"Đã loại bỏ {rows_before_filter - rows_after_filter} dòng chỉ có aspect là '[0]' (other).")
+
+    if df.empty:
+        logger.error("DataFrame trở nên rỗng sau khi lọc aspect '[0]'.")
+        return None, None, None, None, None
+        
+    df.reset_index(drop=True, inplace=True)  # Reset index sau khi lọc
+
+    # 4. Tải Tokenizer
+    logger.info(f"Đang tải PhoBERT tokenizer: {tokenizer_name}...")
+    tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
+    logger.info("Tokenizer đã được tải.")
+
+    # 5. Tokenize cột 'tokenized_text' (đã được tách từ)
+    logger.info("Đang tokenize cột 'tokenized_text'...")
+    tokenized_texts = df['tokenized_text'].tolist()
+
+    encoded_inputs = tokenizer(
+        tokenized_texts,
+        padding='max_length',
+        truncation=True,
+        max_length=max_seq_length,
+        return_attention_mask=True,
+        return_tensors='pt'
+    )
+    input_ids = encoded_inputs['input_ids']
+    attention_masks = encoded_inputs['attention_mask']
+    logger.info(f"Đã tokenize văn bản. Shape input_ids: {input_ids.shape}")
+
+    # 6. Chuẩn bị nhãn 'sentiment'
+    logger.info("Đang xử lý nhãn 'sentiment'...")
+    adjusted_sentiment_labels = df['sentiment'].astype(int) + sentiment_adj
+    sentiment_labels_tensor = torch.tensor(adjusted_sentiment_labels.tolist(), dtype=torch.long)
+    logger.info(f"Đã xử lý nhãn sentiment. Shape: {sentiment_labels_tensor.shape}")
+
+    # 7. Chuẩn bị nhãn 'aspect' (multi-hot)
+    logger.info("Đang xử lý nhãn 'aspect' (multi-hot)...")
+    aspect_labels_multi_hot_list = [
+        create_multi_hot_vector(codes_list, num_aspects)
+        for codes_list in df['aspect_codes_list']
+    ]
+    aspect_labels_tensor = torch.stack(aspect_labels_multi_hot_list)
+    logger.info(f"Đã xử lý nhãn aspect. Shape: {aspect_labels_tensor.shape}")
+
+    # Tạo DataFrame metadata để lưu
+    df_metadata = df[['tokenized_text', 'sentiment', 'aspect', 'aspect_codes_list']].copy()
+    
+    # Lưu tạm các tensor để tiết kiệm thời gian khi chạy lại
+    torch.save(input_ids, INPUT_IDS_FILE)
+    torch.save(attention_masks, ATTENTION_MASKS_FILE)
+    torch.save(sentiment_labels_tensor, SENTIMENT_LABELS_FILE)
+    torch.save(aspect_labels_tensor, ASPECT_LABELS_FILE)
+    df_metadata.to_csv(FINETUNING_METADATA_FILE, index=False)
+    logger.info(f"Đã lưu các tensor tạm thời vào thư mục Gold.")
+
+    return input_ids, attention_masks, sentiment_labels_tensor, aspect_labels_tensor, df_metadata
 
 # Dataset cho việc fine-tuning đa nhiệm vụ
 class MultiTaskDataset(Dataset):
@@ -534,64 +677,93 @@ def train_model(model, train_dataloader, val_dataloader, test_dataloader, optimi
 
 def load_and_prepare_data():
     """
-    Tải dữ liệu cho fine-tuning từ các file đã chuẩn bị và chia thành train, val, test
+    Tải dữ liệu cho fine-tuning từ file đã tách từ và chia thành train, val, test
     """
-    logger.info("Đang tải dữ liệu cho fine-tuning...")
+    logger.info("Đang chuẩn bị dữ liệu cho fine-tuning...")
     
-    try:
-        input_ids = torch.load(INPUT_IDS_FILE)
-        attention_masks = torch.load(ATTENTION_MASKS_FILE)
-        sentiment_labels = torch.load(SENTIMENT_LABELS_FILE)
-        aspect_labels = torch.load(ASPECT_LABELS_FILE)
+    # Kiểm tra nếu các file tensor đã tồn tại và còn mới
+    if (os.path.exists(INPUT_IDS_FILE) and
+        os.path.exists(ATTENTION_MASKS_FILE) and
+        os.path.exists(SENTIMENT_LABELS_FILE) and
+        os.path.exists(ASPECT_LABELS_FILE) and
+        os.path.exists(FINETUNING_METADATA_FILE)):
         
-        logger.info(f"Đã tải dữ liệu. Kích thước:")
-        logger.info(f"- Input IDs: {input_ids.shape}")
-        logger.info(f"- Attention Masks: {attention_masks.shape}")
-        logger.info(f"- Sentiment Labels: {sentiment_labels.shape}")
-        logger.info(f"- Aspect Labels: {aspect_labels.shape}")
+        # Kiểm tra thời gian tạo của file tensor và file tokenized
+        tokenized_time = os.path.getmtime(TOKENIZED_REVIEWS_FILE)
+        tensors_time = min([
+            os.path.getmtime(INPUT_IDS_FILE),
+            os.path.getmtime(ATTENTION_MASKS_FILE),
+            os.path.getmtime(SENTIMENT_LABELS_FILE),
+            os.path.getmtime(ASPECT_LABELS_FILE)
+        ])
         
-        # Chia tập dữ liệu thành train (80%), val (10%), test (10%)
-        indices = torch.randperm(len(input_ids))
-        train_size = int(0.8 * len(input_ids))
-        val_size = int(0.1 * len(input_ids))
-        
-        train_indices = indices[:train_size]
-        val_indices = indices[train_size:train_size+val_size]
-        test_indices = indices[train_size+val_size:]
-        
-        train_dataset = MultiTaskDataset(
-            input_ids=input_ids[train_indices],
-            attention_masks=attention_masks[train_indices],
-            sentiment_labels=sentiment_labels[train_indices],
-            aspect_labels=aspect_labels[train_indices]
-        )
-        
-        val_dataset = MultiTaskDataset(
-            input_ids=input_ids[val_indices],
-            attention_masks=attention_masks[val_indices],
-            sentiment_labels=sentiment_labels[val_indices],
-            aspect_labels=aspect_labels[val_indices]
-        )
-        
-        test_dataset = MultiTaskDataset(
-            input_ids=input_ids[test_indices],
-            attention_masks=attention_masks[test_indices],
-            sentiment_labels=sentiment_labels[test_indices],
-            aspect_labels=aspect_labels[test_indices]
-        )
-        
-        logger.info(f"Tập train: {len(train_dataset)} mẫu")
-        logger.info(f"Tập validation: {len(val_dataset)} mẫu")
-        logger.info(f"Tập test: {len(test_dataset)} mẫu")
-        
-        return train_dataset, val_dataset, test_dataset
-        
-    except Exception as e:
-        logger.error(f"Lỗi khi tải dữ liệu: {e}")
+        # Nếu file tensor được tạo sau file tokenized, sử dụng file tensor
+        if tensors_time > tokenized_time:
+            logger.info("Tìm thấy các file tensor đã tạo và còn mới. Sử dụng các file này...")
+            try:
+                input_ids = torch.load(INPUT_IDS_FILE)
+                attention_masks = torch.load(ATTENTION_MASKS_FILE)
+                sentiment_labels = torch.load(SENTIMENT_LABELS_FILE)
+                aspect_labels = torch.load(ASPECT_LABELS_FILE)
+                
+                logger.info(f"Đã tải dữ liệu từ file tensor. Kích thước:")
+                logger.info(f"- Input IDs: {input_ids.shape}")
+                logger.info(f"- Attention Masks: {attention_masks.shape}")
+                logger.info(f"- Sentiment Labels: {sentiment_labels.shape}")
+                logger.info(f"- Aspect Labels: {aspect_labels.shape}")
+            except Exception as e:
+                logger.error(f"Lỗi khi tải file tensor: {e}")
+                logger.info("Tiến hành tạo mới dữ liệu từ file tokenized...")
+                input_ids, attention_masks, sentiment_labels, aspect_labels, _ = prepare_data_from_tokenized(TOKENIZED_REVIEWS_FILE)
+        else:
+            logger.info("Các file tensor cũ hơn file tokenized. Tạo mới dữ liệu...")
+            input_ids, attention_masks, sentiment_labels, aspect_labels, _ = prepare_data_from_tokenized(TOKENIZED_REVIEWS_FILE)
+    else:
+        logger.info("Không tìm thấy các file tensor. Tạo mới dữ liệu từ file tokenized...")
+        input_ids, attention_masks, sentiment_labels, aspect_labels, _ = prepare_data_from_tokenized(TOKENIZED_REVIEWS_FILE)
+    
+    if input_ids is None:
+        logger.error("Không thể chuẩn bị dữ liệu.")
         return None, None, None
+        
+    # Chia tập dữ liệu thành train (80%), val (10%), test (10%)
+    indices = torch.randperm(len(input_ids))
+    train_size = int(0.8 * len(input_ids))
+    val_size = int(0.1 * len(input_ids))
+    
+    train_indices = indices[:train_size]
+    val_indices = indices[train_size:train_size+val_size]
+    test_indices = indices[train_size+val_size:]
+    
+    train_dataset = MultiTaskDataset(
+        input_ids=input_ids[train_indices],
+        attention_masks=attention_masks[train_indices],
+        sentiment_labels=sentiment_labels[train_indices],
+        aspect_labels=aspect_labels[train_indices]
+    )
+    
+    val_dataset = MultiTaskDataset(
+        input_ids=input_ids[val_indices],
+        attention_masks=attention_masks[val_indices],
+        sentiment_labels=sentiment_labels[val_indices],
+        aspect_labels=aspect_labels[val_indices]
+    )
+    
+    test_dataset = MultiTaskDataset(
+        input_ids=input_ids[test_indices],
+        attention_masks=attention_masks[test_indices],
+        sentiment_labels=sentiment_labels[test_indices],
+        aspect_labels=aspect_labels[test_indices]
+    )
+    
+    logger.info(f"Tập train: {len(train_dataset)} mẫu")
+    logger.info(f"Tập validation: {len(val_dataset)} mẫu")
+    logger.info(f"Tập test: {len(test_dataset)} mẫu")
+    
+    return train_dataset, val_dataset, test_dataset
 
 def main():
-    logger.info("=== BẮT ĐẦU QUÁ TRÌNH FINE-TUNE PHOBERT ===")
+    logger.info("=== BẮT ĐẦU QUÁ TRÌNH FINE-TUNE PHOBERT (KẾT HỢP EMBEDDING) ===")
     
     # Thiết lập seed
     set_seed(SEED)
@@ -599,6 +771,12 @@ def main():
     # Kiểm tra GPU
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     logger.info(f"Sử dụng thiết bị: {device}")
+    
+    # Kiểm tra file tokenized tồn tại
+    if not os.path.exists(TOKENIZED_REVIEWS_FILE):
+        logger.error(f"Không tìm thấy file tokenized tại: {TOKENIZED_REVIEWS_FILE}")
+        logger.error("Vui lòng chạy bước tokenize_text trước.")
+        return
     
     # Tải dữ liệu
     train_dataset, val_dataset, test_dataset = load_and_prepare_data()

@@ -7,10 +7,11 @@ BRONZE_DIR = os.path.join(DATA_DIR, "Bronze")  # Dữ liệu thô (chưa xử l�
 SILVER_DIR = os.path.join(DATA_DIR, "Silver")  # Dữ liệu đã xử lý (tách từ, chuẩn hóa)
 GOLD_DIR = os.path.join(DATA_DIR, "Gold")  # Dữ liệu sẵn sàng cho fine-tuning PhoBERT
 LOGS_DIR = os.path.join(BASE_DIR, "logs")  # Thư mục chứa log
+MODELS_DIR = os.path.join(BASE_DIR, "models")  # Thư mục chứa mô hình đã huấn luyện
 BROWSER_PROFILES_DIR = os.path.join(BASE_DIR, "browser_profiles")  # Thư mục chứa profile trình duyệt
 
 # Đảm bảo các thư mục tồn tại
-for directory in [DATA_DIR, BRONZE_DIR, SILVER_DIR, GOLD_DIR, LOGS_DIR, BROWSER_PROFILES_DIR]:
+for directory in [DATA_DIR, BRONZE_DIR, SILVER_DIR, GOLD_DIR, LOGS_DIR, MODELS_DIR, BROWSER_PROFILES_DIR]:
     os.makedirs(directory, exist_ok=True)
 
 # --- BRONZE: Dữ liệu thô chưa qua xử lý ---

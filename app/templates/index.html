@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phân tích đánh giá sản phẩm Tiki</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background-color: #1A94FF;
+        }
+        .navbar-brand img {
+            height: 30px;
+        }
+        .card {
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .card-header {
+            background-color: #e9f5ff;
+            border-bottom: 1px solid #dae0e5;
+        }
+        #loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+        #results {
+            display: none;
+        }
+        .progress {
+            height: 20px;
+        }
+        .aspect-card {
+            border-left: 4px solid;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        .aspect-ship { border-color: #007bff; }
+        .aspect-quality { border-color: #28a745; }
+        .aspect-price { border-color: #ffc107; }
+        .aspect-cskh { border-color: #6610f2; }
+        .sentiment-verypositive { color: #28a745; }
+        .sentiment-positive { color: #20c997; }
+        .sentiment-neutral { color: #6c757d; }
+        .sentiment-negative { color: #fd7e14; }
+        .sentiment-verynegative { color: #dc3545; }
+        .recommendation {
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .review-example {
+            font-style: italic;
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://salt.tikicdn.com/ts/upload/e4/49/6c/270be9859abd5f5ec5071da65fab0a94.png" alt="Tiki Logo">
+                <span class="ms-2">Phân tích đánh giá sản phẩm</span>
+            </a>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0">Nhập link sản phẩm Tiki</h5>
+                    </div>
+                    <div class="card-body">
+                        <form id="productForm">
+                            <div class="mb-3">
+                                <label for="productUrl" class="form-label">URL sản phẩm</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="bi bi-link-45deg"></i></span>
+                                    <input type="url" class="form-control" id="productUrl" name="productUrl" 
+                                        placeholder="Ví dụ: https://tiki.vn/dien-thoai-samsung-galaxy-a54-5g-8gb-128gb-p207200399.html" required>
+                                    <button type="submit" class="btn btn-primary">
+                                        <i class="bi bi-search me-1"></i> Phân tích
+                                    </button>
+                                </div>
+                                <div class="form-text mt-2"><i class="bi bi-info-circle me-1"></i> Nhập link sản phẩm từ trang web Tiki.vn</div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div id="loading">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <div class="spinner-border text-primary mb-3 pulse-animation" role="status">
+                                <span class="visually-hidden">Đang xử lý...</span>
+                            </div>
+                            <h5 id="loadingText" class="mb-3">Đang thu thập đánh giá sản phẩm...</h5>
+                            <div class="progress mt-3">
+                                <div id="progressBar" class="progress-bar progress-bar-striped progress-bar-animated" style="width: 0%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="results">
+                    <div class="card mb-4">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0"><i class="bi bi-info-circle me-2"></i>Thông tin sản phẩm</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="product-image-container">
+                                        <img id="productImage" src="" class="img-fluid rounded" alt="Hình ảnh sản phẩm">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <h4 id="productName" class="mb-2"></h4>
+                                    <div class="d-flex align-items-center mb-3">
+                                        <div id="productRating" class="star-rating me-2"></div>
+                                        <span id="ratingValue" class="fw-bold me-2"></span>
+                                        <span id="reviewCount" class="text-muted"></span>
+                                    </div>
+                                    <div class="price-container mb-3">
+                                        <p id="productPrice" class="text-danger fw-bold fs-4 mb-0"></p>
+                                        <p id="originalPrice" class="text-muted text-decoration-line-through mb-0"></p>
+                                        <span id="discountRate" class="badge bg-danger"></span>
+                                    </div>
+                                    <div class="mt-3">
+                                        <span id="quantitySold" class="badge bg-secondary"><i class="bi bi-bag-check me-1"></i> Đã bán: <span id="soldNumber"></span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="card-title mb-0"><i class="bi bi-graph-up me-2"></i>Kết quả phân tích cảm xúc</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h6 class="mb-3"><i class="bi bi-emoji-smile me-2"></i>Tổng quan cảm xúc</h6>
+                                    <div class="canvas-container">
+                                        <canvas id="sentimentChart"></canvas>
+                                    </div>
+                                    <div class="mt-4">
+                                        <div class="d-flex justify-content-between sentiment-stats">
+                                            <span class="sentiment-verypositive"><i class="bi bi-emoji-laughing me-1"></i> Rất tích cực:</span>
+                                            <span id="veryPositive" class="fw-bold">0%</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between sentiment-stats">
+                                            <span class="sentiment-positive"><i class="bi bi-emoji-smile me-1"></i> Tích cực:</span>
+                                            <span id="positive" class="fw-bold">0%</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between sentiment-stats">
+                                            <span class="sentiment-neutral"><i class="bi bi-emoji-neutral me-1"></i> Trung lập:</span>
+                                            <span id="neutral" class="fw-bold">0%</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between sentiment-stats">
+                                            <span class="sentiment-negative"><i class="bi bi-emoji-frown me-1"></i> Tiêu cực:</span>
+                                            <span id="negative" class="fw-bold">0%</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between sentiment-stats">
+                                            <span class="sentiment-verynegative"><i class="bi bi-emoji-angry me-1"></i> Rất tiêu cực:</span>
+                                            <span id="veryNegative" class="fw-bold">0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h6 class="mb-3"><i class="bi bi-list-check me-2"></i>Phân tích khía cạnh</h6>
+                                    <div class="canvas-container">
+                                        <canvas id="aspectChart"></canvas>
+                                    </div>
+                                    <div class="mt-4">
+                                        <div class="aspect-card aspect-quality">
+                                            <div class="d-flex justify-content-between">
+                                                <strong><i class="bi bi-award me-2"></i>Chất lượng sản phẩm</strong>
+                                                <span id="qualityScore" class="fw-bold">0%</span>
+                                            </div>
+                                        </div>
+                                        <div class="aspect-card aspect-price">
+                                            <div class="d-flex justify-content-between">
+                                                <strong><i class="bi bi-currency-dollar me-2"></i>Giá cả</strong>
+                                                <span id="priceScore" class="fw-bold">0%</span>
+                                            </div>
+                                        </div>
+                                        <div class="aspect-card aspect-ship">
+                                            <div class="d-flex justify-content-between">
+                                                <strong><i class="bi bi-truck me-2"></i>Vận chuyển</strong>
+                                                <span id="shipScore" class="fw-bold">0%</span>
+                                            </div>
+                                        </div>
+                                        <div class="aspect-card aspect-cskh">
+                                            <div class="d-flex justify-content-between">
+                                                <strong><i class="bi bi-headset me-2"></i>Chăm sóc khách hàng</strong>
+                                                <span id="cskhScore" class="fw-bold">0%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="recommendation" class="recommendation bg-light text-center mt-4"></div>
+
+                            <div class="mt-4">
+                                <h6 class="mb-3"><i class="bi bi-quote me-2"></i>Một số đánh giá tiêu biểu</h6>
+                                <div id="exampleReviews"></div>
+                                <div id="reviewStats" class="text-center mt-3">
+                                    <small class="text-muted">Đã phân tích <span id="analyzedReviewCount">0</span> đánh giá từ tổng số <span id="rawReviewCount">0</span> đánh giá</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-1">© 2025 Phân tích đánh giá sản phẩm Tiki - Dự án Khoa học dữ liệu</p>
+            <p class="text-muted mb-0"><small>Được phát triển bởi sinh viên DS221</small></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        document.getElementById('productForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const productUrl = document.getElementById('productUrl').value;
+            if (!productUrl.includes('tiki.vn')) {
+                alert('Vui lòng nhập URL từ trang web Tiki.vn');
+                return;
+            }
+            
+            // Hiển thị loading
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('results').style.display = 'none';
+            
+            // Giả lập tiến trình xử lý
+            simulateProcessing();
+            
+            // Gửi request đến server
+            fetch('/analyze', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ url: productUrl }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Cập nhật UI với kết quả
+                updateUI(data);
+                
+                // Ẩn loading, hiển thị kết quả
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('results').style.display = 'block';
+                
+                // Cuộn đến kết quả
+                document.getElementById('results').scrollIntoView({ behavior: 'smooth' });
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Có lỗi xảy ra khi phân tích sản phẩm. Vui lòng thử lại sau.');
+                document.getElementById('loading').style.display = 'none';
+            });
+        });
+        
+        function simulateProcessing() {
+            const progressBar = document.getElementById('progressBar');
+            const loadingText = document.getElementById('loadingText');
+            const stages = [
+                'Đang thu thập đánh giá sản phẩm...',
+                'Đang tiền xử lý dữ liệu...',
+                'Đang phân loại cảm xúc và khía cạnh...',
+                'Đang tổng hợp kết quả...'
+            ];
+            
+            let progress = 0;
+            let stageIndex = 0;
+            
+            const interval = setInterval(() => {
+                progress += 5;
+                if (progress > 95) {
+                    clearInterval(interval);
+                    return;
+                }
+                
+                if (progress % 25 === 0 && stageIndex < stages.length - 1) {
+                    stageIndex++;
+                    loadingText.textContent = stages[stageIndex];
+                }
+                
+                progressBar.style.width = progress + '%';
+            }, 300);
+        }
+        
+        function updateUI(data) {
+            // Cập nhật thông tin sản phẩm
+            document.getElementById('productName').textContent = data.product.name;
+            document.getElementById('productPrice').textContent = data.product.price;
+            document.getElementById('productImage').src = data.product.image || 'https://salt.tikicdn.com/ts/upload/c9/c3/cf/db8c091b5a84805a5d0c17079a437e9d.png';
+            
+            // Hiển thị giá gốc và tỷ lệ giảm giá nếu có
+            const originalPriceElem = document.getElementById('originalPrice');
+            const discountRateElem = document.getElementById('discountRate');
+            
+            if (data.product.original_price && data.product.original_price !== 'N/A') {
+                originalPriceElem.textContent = data.product.original_price;
+                originalPriceElem.style.display = 'block';
+            } else {
+                originalPriceElem.style.display = 'none';
+            }
+            
+            if (data.product.discount_rate && data.product.discount_rate !== 'N/A') {
+                discountRateElem.textContent = data.product.discount_rate;
+                discountRateElem.style.display = 'inline-block';
+            } else {
+                discountRateElem.style.display = 'none';
+            }
+            
+            // Hiển thị số lượng đã bán
+            const soldNumberElem = document.getElementById('soldNumber');
+            if (data.product.quantity_sold && data.product.quantity_sold !== 'N/A') {
+                soldNumberElem.textContent = data.product.quantity_sold;
+                document.getElementById('quantitySold').style.display = 'inline-block';
+            } else {
+                document.getElementById('quantitySold').style.display = 'none';
+            }
+            
+            // Hiển thị rating với sao
+            const ratingValue = document.getElementById('ratingValue');
+            const ratingStars = document.getElementById('productRating');
+            ratingValue.textContent = data.product.rating + '/5';
+            
+            // Tạo các sao đánh giá
+            ratingStars.innerHTML = '';
+            const rating = parseFloat(data.product.rating);
+            for (let i = 1; i <= 5; i++) {
+                const starIcon = document.createElement('i');
+                if (i <= rating) {
+                    starIcon.className = 'bi bi-star-fill';
+                } else if (i - 0.5 <= rating) {
+                    starIcon.className = 'bi bi-star-half';
+                } else {
+                    starIcon.className = 'bi bi-star';
+                }
+                ratingStars.appendChild(starIcon);
+            }
+            
+            document.getElementById('reviewCount').textContent = '(' + data.product.reviewCount + ' đánh giá)';
+            
+            // Hiển thị số lượng đánh giá đã phân tích
+            document.getElementById('analyzedReviewCount').textContent = data.analyzed_reviews_count;
+            document.getElementById('rawReviewCount').textContent = data.raw_reviews_count;
+            
+            // Cập nhật biểu đồ cảm xúc
+            const sentimentCtx = document.getElementById('sentimentChart').getContext('2d');
+            new Chart(sentimentCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Rất tích cực', 'Tích cực', 'Trung lập', 'Tiêu cực', 'Rất tiêu cực'],
+                    datasets: [{
+                        data: [
+                            data.sentiment.veryPositive,
+                            data.sentiment.positive,
+                            data.sentiment.neutral,
+                            data.sentiment.negative,
+                            data.sentiment.veryNegative
+                        ],
+                        backgroundColor: ['#28a745', '#20c997', '#6c757d', '#fd7e14', '#dc3545']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }
+            });
+            
+            // Cập nhật phần trăm cảm xúc
+            document.getElementById('veryPositive').textContent = data.sentiment.veryPositive + '%';
+            document.getElementById('positive').textContent = data.sentiment.positive + '%';
+            document.getElementById('neutral').textContent = data.sentiment.neutral + '%';
+            document.getElementById('negative').textContent = data.sentiment.negative + '%';
+            document.getElementById('veryNegative').textContent = data.sentiment.veryNegative + '%';
+            
+            // Cập nhật biểu đồ khía cạnh
+            const aspectCtx = document.getElementById('aspectChart').getContext('2d');
+            new Chart(aspectCtx, {
+                type: 'radar',
+                data: {
+                    labels: ['Chất lượng', 'Giá cả', 'Vận chuyển', 'CSKH'],
+                    datasets: [{
+                        label: 'Điểm đánh giá',
+                        data: [
+                            data.aspects.quality,
+                            data.aspects.price,
+                            data.aspects.ship,
+                            data.aspects.cskh
+                        ],
+                        backgroundColor: 'rgba(26, 148, 255, 0.2)',
+                        borderColor: '#1A94FF',
+                        pointBackgroundColor: '#1A94FF',
+                        pointBorderColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: '#1A94FF'
+                    }]
+                },
+                options: {
+                    scales: {
+                        r: {
+                            angleLines: {
+                                display: true
+                            },
+                            suggestedMin: 0,
+                            suggestedMax: 100
+                        }
+                    }
+                }
+            });
+            
+            // Áp dụng CSS classes cho các điểm khía cạnh
+            applyScoreClass('qualityScore', data.aspects.quality);
+            applyScoreClass('priceScore', data.aspects.price);
+            applyScoreClass('shipScore', data.aspects.ship);
+            applyScoreClass('cskhScore', data.aspects.cskh);
+            
+            // Cập nhật khuyến nghị
+            const recommendationElem = document.getElementById('recommendation');
+            if (data.recommendation.shouldBuy) {
+                recommendationElem.innerHTML = '<i class="bi bi-hand-thumbs-up me-2"></i>' + data.recommendation.text;
+                recommendationElem.classList.add('bg-success', 'text-white');
+                recommendationElem.classList.remove('bg-danger');
+            } else {
+                recommendationElem.innerHTML = '<i class="bi bi-hand-thumbs-down me-2"></i>' + data.recommendation.text;
+                recommendationElem.classList.add('bg-danger', 'text-white');
+                recommendationElem.classList.remove('bg-success');
+            }
+            
+            // Cập nhật đánh giá tiêu biểu
+            const exampleReviewsElem = document.getElementById('exampleReviews');
+            exampleReviewsElem.innerHTML = '';
+            
+            data.exampleReviews.forEach(review => {
+                const sentiment = getSentimentClass(review.sentiment);
+                const sentimentIcon = getSentimentIcon(review.sentiment);
+                const reviewDiv = document.createElement('div');
+                reviewDiv.className = 'review-example';
+                reviewDiv.innerHTML = `
+                    <p class="${sentiment}"><i class="${sentimentIcon} me-2"></i>"${review.text}"</p>
+                    <div class="d-flex justify-content-between">
+                        <small><i class="bi bi-tag me-1"></i>Khía cạnh: ${formatAspects(review.aspects)}</small>
+                        <small class="badge ${getBadgeClass(review.sentiment)}"><i class="bi bi-emoji-smile me-1"></i>Cảm xúc: ${review.sentimentText}</small>
+                    </div>
+                `;
+                exampleReviewsElem.appendChild(reviewDiv);
+            });
+        }
+        
+        function applyScoreClass(elementId, score) {
+            const element = document.getElementById(elementId);
+            element.textContent = score + '%';
+            element.className = 'fw-bold score-badge';
+            
+            if (score >= 70) {
+                element.classList.add('score-high');
+            } else if (score >= 50) {
+                element.classList.add('score-medium');
+            } else {
+                element.classList.add('score-low');
+            }
+        }
+        
+        function formatAspects(aspects) {
+            const aspectMap = {
+                'quality': 'Chất lượng',
+                'price': 'Giá cả',
+                'ship': 'Vận chuyển',
+                'cskh': 'CSKH',
+                'other': 'Khác'
+            };
+            
+            return aspects.map(aspect => aspectMap[aspect] || aspect).join(', ');
+        }
+        
+        function getSentimentClass(sentiment) {
+            switch(sentiment) {
+                case 4: return 'sentiment-verypositive';
+                case 3: return 'sentiment-positive';
+                case 2: return 'sentiment-neutral';
+                case 1: return 'sentiment-negative';
+                case 0: return 'sentiment-verynegative';
+                default: return '';
+            }
+        }
+        
+        function getSentimentIcon(sentiment) {
+            switch(sentiment) {
+                case 4: return 'bi bi-emoji-laughing';
+                case 3: return 'bi bi-emoji-smile';
+                case 2: return 'bi bi-emoji-neutral';
+                case 1: return 'bi bi-emoji-frown';
+                case 0: return 'bi bi-emoji-angry';
+                default: return 'bi bi-emoji-neutral';
+            }
+        }
+        
+        function getBadgeClass(sentiment) {
+            switch(sentiment) {
+                case 4: return 'bg-success';
+                case 3: return 'bg-info';
+                case 2: return 'bg-secondary';
+                case 1: return 'bg-warning';
+                case 0: return 'bg-danger';
+                default: return 'bg-secondary';
+            }
+        }
+    </script>
+</body>
+</html> 

@@ -1,0 +1,264 @@
+/* Custom styles for Tiki sentiment analysis app */
+:root {
+    --primary: #1A94FF;
+    --primary-dark: #0e7ee2;
+    --secondary: #27272A;
+    --accent: #FFD124;
+    --positive: #28a745;
+    --negative: #dc3545;
+    --neutral: #6c757d;
+    --light-bg: #f8f9fa;
+    --card-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    --transition: all 0.3s ease;
+}
+
+body {
+    background-color: var(--light-bg);
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    padding: 15px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    height: 32px;
+    transition: var(--transition);
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.05);
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+    margin-bottom: 25px;
+    border: none;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.card:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+    transform: translateY(-5px);
+}
+
+.card-header {
+    background: linear-gradient(to right, #e9f5ff, #f0f8ff);
+    border-bottom: 1px solid #dae0e5;
+    padding: 15px 20px;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(26, 148, 255, 0.4);
+    background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+}
+
+#loading {
+    display: none;
+    text-align: center;
+    padding: 20px;
+}
+
+#results {
+    display: none;
+}
+
+.progress {
+    height: 12px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar {
+    background: linear-gradient(to right, var(--primary), var(--primary-dark));
+}
+
+.aspect-card {
+    border-left: 4px solid;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: var(--transition);
+}
+
+.aspect-card:hover {
+    transform: translateX(5px);
+}
+
+.aspect-ship { 
+    border-color: #007bff; 
+    border-left: 4px solid;
+    background: linear-gradient(90deg, rgba(0, 123, 255, 0.1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.aspect-quality { 
+    border-color: #28a745; 
+    border-left: 4px solid;
+    background: linear-gradient(90deg, rgba(40, 167, 69, 0.1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.aspect-price { 
+    border-color: #ffc107; 
+    border-left: 4px solid;
+    background: linear-gradient(90deg, rgba(255, 193, 7, 0.1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.aspect-cskh { 
+    border-color: #6610f2; 
+    border-left: 4px solid;
+    background: linear-gradient(90deg, rgba(102, 16, 242, 0.1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.sentiment-verypositive { color: #28a745; font-weight: 500; }
+.sentiment-positive { color: #20c997; font-weight: 500; }
+.sentiment-neutral { color: #6c757d; font-weight: 500; }
+.sentiment-negative { color: #fd7e14; font-weight: 500; }
+.sentiment-verynegative { color: #dc3545; font-weight: 500; }
+
+.recommendation {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    color: #000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: var(--transition);
+}
+
+.recommendation.bg-success {
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%) !important;
+}
+
+.recommendation.bg-danger {
+    background: linear-gradient(135deg, #dc3545 0%, #e84c3d 100%) !important;
+}
+
+.recommendation:hover {
+    transform: scale(1.02);
+}
+
+.review-example {
+    font-style: italic;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: var(--transition);
+}
+
+.review-example:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.highlight-text {
+    background-color: rgba(255, 255, 0, 0.3);
+    padding: 0 3px;
+    border-radius: 3px;
+}
+
+.tiki-blue {
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.score-badge {
+    font-weight: bold;
+    padding: 5px 12px;
+    border-radius: 20px;
+    display: inline-block;
+    transition: var(--transition);
+}
+
+.score-high {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.score-medium {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.score-low {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.score-badge:hover {
+    transform: translateY(-2px);
+}
+
+/* Animation for loading */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.pulse-animation {
+    animation: pulse 1s infinite;
+}
+
+/* Product image animations */
+.img-fluid {
+    transition: var(--transition);
+}
+
+.img-fluid:hover {
+    transform: scale(1.05);
+}
+
+/* Rating stars */
+.star-rating {
+    color: #FFD124;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+/* Footer styling */
+footer {
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    border-top: 1px solid #dee2e6;
+    padding: 20px 0;
+    margin-top: 50px !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .col-md-6 {
+        margin-bottom: 20px;
+    }
+    
+    .card:hover {
+        transform: none;
+    }
+    
+    .aspect-card:hover {
+        transform: none;
+    }
+} 

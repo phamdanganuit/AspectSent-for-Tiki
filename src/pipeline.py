@@ -12,10 +12,8 @@ from src.data_collection.crawl_product_reviews import main as crawl_product_revi
 from src.data_preprocessing.clean_data import main as clean_data
 from src.data_labeling.label_aspects import main as label_aspects
 from src.data_preprocessing.normalize_text import main as normalize_text
-from src.data_preprocessing.normalize_text import main as normalize_data
-# from src.data_embedding.phobert_embedding import main as create_embeddings
-# from src.data_embedding.phobert_finetune import main as finetune_phobert
-# from src.data_embedding.sentiment_aspect_extraction import main as extract_sentiment_aspect
+from src.data_preprocessing.tokenize_text import main as tokenize_text
+from src.data_embedding.phobert_finetune import main as finetune_phobert
 
 def run_pipeline(steps=None):
     """
@@ -25,33 +23,45 @@ def run_pipeline(steps=None):
         steps (list, optional): Danh sách các bước cần chạy. Nếu None, chạy tất cả các bước.
     """
     all_steps = {
-        # Bước 1: Thu thập dữ liệu
+        # Bước 1: Thu thập dữ liệu (Bronze)
         # 'crawl_category': crawl_category_urls,
         # 'crawl_products': crawl_product_urls,
         # 'crawl_reviews': crawl_product_reviews,
         
-        # Bước 2: Tiền xử lý (làm sạch) dữ liệu
+        # Bước 2: Tiền xử lý (làm sạch) dữ liệu (Silver)
         'clean_data': clean_data,
         
-        # Bước 3: Gắn nhãn cho dữ liệu
+        # Bước 3: Gắn nhãn cho dữ liệu (Silver)
         'label_aspects': label_aspects,
         
-        # Bước 4: Chuẩn hóa văn bản
+        # Bước 4: Chuẩn hóa văn bản (Silver)
         'normalize_text': normalize_text,
-        'normalize_data': normalize_data,
         
-        # Bước 5: Tạo embedding với PhoBERT
-        # 'create_embeddings': create_embeddings,
+        # Bước 5: Tách từ văn bản (Gold)
+        'tokenize_text': tokenize_text,
         
-        # Bước 6: Fine-tune PhoBERT cho cả sentiment và aspect
-        # 'finetune_phobert': finetune_phobert,
-        
-        # Bước 7: Trích xuất sentiment và aspect từ mô hình đã fine-tune
-        # 'extract_sentiment_aspect': extract_sentiment_aspect
+        # Bước 6: Fine-tune PhoBERT (bao gồm embedding)
+        # 'finetune_phobert': finetune_phobert
     }
     
+    # Định nghĩa thứ tự các bước trong pipeline
+    pipeline_order = [
+        'crawl_category',
+        'crawl_products',
+        'crawl_reviews',
+        'clean_data',
+        'label_aspects',
+        'normalize_text',
+        'tokenize_text',
+        'finetune_phobert'
+    ]
+    
     if steps is None:
-        steps = list(all_steps.keys())
+        # Nếu không có bước nào được chỉ định, chạy tất cả theo thứ tự
+        steps = pipeline_order
+    else:
+        # Nếu có các bước được chỉ định, sắp xếp lại theo thứ tự đúng
+        steps = [step for step in pipeline_order if step in steps]
     
     start_time = time.time()
     
@@ -98,9 +108,8 @@ def parse_args():
             'clean_data',
             'label_aspects',
             'normalize_text',
-            'create_embeddings',
-            # 'finetune_phobert',
-            # 'extract_sentiment_aspect'
+            'tokenize_text',
+            'finetune_phobert'
         ],
         help='Các bước cần chạy (mặc định: chạy tất cả các bước)'
     )

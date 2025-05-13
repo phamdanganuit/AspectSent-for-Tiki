@@ -3,36 +3,20 @@ import regex as re
 import emoji
 import sys
 import os
-from pyvi import ViTokenizer
 
 # Thêm thư mục gốc của dự án vào sys.path
 # Điều chỉnh dòng này nếu cấu trúc thư mục của bạn khác
-try:
-    current_file_dir = os.path.dirname(os.path.abspath(__file__))
-    src_dir = os.path.dirname(current_file_dir) if os.path.basename(current_file_dir) in ['features', 'processing'] else current_file_dir # Giả sử file có thể nằm trong features hoặc processing
-    project_root_dir = os.path.dirname(src_dir) if os.path.basename(src_dir) == 'src' else src_dir
 
-    if project_root_dir not in sys.path:
-        sys.path.append(project_root_dir)
-    
-    # Cố gắng import constants từ vị trí tương đối với cấu trúc dự án
-    # Ví dụ: nếu file này nằm trong project_root/src/features/
-    # thì from src.utils.constants sẽ hoạt động nếu project_root được thêm vào sys.path
-    from src.utils.constants import LABELED_REVIEWS_FILE, NORMALIZED_REVIEWS_FILE
-except ImportError as e:
-    print(f"Cảnh báo: Không thể import constants theo cấu trúc dự án: {e}. Sử dụng đường dẫn file mẫu.")
-    if not os.path.exists("data"):
-        os.makedirs("data")
-    LABELED_REVIEWS_FILE = "data/labeled_reviews_sample.csv"
-    NORMALIZED_REVIEWS_FILE = "data/normalized_reviews_sample.csv"
-    if not os.path.exists(LABELED_REVIEWS_FILE):
-        sample_data_for_input = {
-            'reviews': ["Sản phẩm tốt, giao hàng nhanh", "chất lượng kém", "Giá cả hợp lý, cskh tốt", "Rất tệ", "Tuyệt vời", "Bình thường thôi", "aspect lạ, vận chuyển ok", "khác", "vận chuyển, chất lượng, aspect_lạ_nữa"],
-            'sentiment': ['Cực kì hài lòng', 'Rất không hài lòng', 'Hài lòng', 'Rất không hài lòng', 'Cực kì hài lòng', 'Bình thường', 'Hài lòng', 'Bình thường', 'Cực kì hài lòng'],
-            'type_product': [0,0,0,0,0,0,0,0,0],
-            'aspect': ['chất lượng, vận chuyển', 'chất lượng', 'giá cả, cskh', 'khác', 'chất lượng', None, 'aspect_lạ, vận chuyển', 'khác', 'vận chuyển, chất lượng, aspect_lạ_nữa']
-        }
-        pd.DataFrame(sample_data_for_input).to_csv(LABELED_REVIEWS_FILE, index=False)
+current_file_dir = os.path.dirname(os.path.abspath(__file__))
+src_dir = os.path.dirname(current_file_dir) if os.path.basename(current_file_dir) in ['features', 'processing'] else current_file_dir # Giả sử file có thể nằm trong features hoặc processing
+project_root_dir = os.path.dirname(src_dir) if os.path.basename(src_dir) == 'src' else src_dir
+if project_root_dir not in sys.path:
+    sys.path.append(project_root_dir)
+
+# Cố gắng import constants từ vị trí tương đối với cấu trúc dự án
+# Ví dụ: nếu file này nằm trong project_root/src/features/
+# thì from src.utils.constants sẽ hoạt động nếu project_root được thêm vào sys.path
+from src.utils.constants import LABELED_REVIEWS_FILE, NORMALIZED_REVIEWS_FILE
 
 
 # Từ điển mã teencode
@@ -130,14 +114,8 @@ def normalize_text(text):
     text = re.sub(r'([\p{L}\p{N}])\1\1+', r'\1\1', text, flags=re.UNICODE) 
     text = re.sub(r'[^\p{L}\p{N}\s.,!?]', ' ', text, flags=re.UNICODE)
     
-    try:
-        tokenized_text = ViTokenizer.tokenize(text)
-        if not isinstance(tokenized_text, str): 
-            text = str(tokenized_text)
-        else:
-            text = tokenized_text
-    except Exception:
-        text = ' '.join(text.split()) 
+    # Loại bỏ phần tách từ bằng ViTokenizer trong normalize_text
+    # Giờ đây quá trình này sẽ được thực hiện trong tokenize_text.py
     
     text = re.sub(r'\s+', ' ', text).strip()
     return text
@@ -182,9 +160,9 @@ def normalize_data(df):
     normalized_df = df.copy()
     
     if 'reviews' in normalized_df.columns:
-        normalized_df['reviews'] = normalized_df['reviews'].apply(normalize_text)
-        normalized_df.dropna(subset=['reviews'], inplace=True)
-        normalized_df = normalized_df[normalized_df['reviews'].str.strip().str.len() > 0]
+        normalized_df['normalized_text'] = normalized_df['reviews'].apply(normalize_text)
+        normalized_df.dropna(subset=['normalized_text'], inplace=True)
+        normalized_df = normalized_df[normalized_df['normalized_text'].str.strip().str.len() > 0]
     else:
         print("Cảnh báo: Không tìm thấy cột 'reviews'.")
 

@@ -1,0 +1,129 @@
+2025-05-13 21:57:10,004 - INFO - === BẮT ĐẦU QUÁ TRÌNH FINE-TUNE PHOBERT (KẾT HỢP EMBEDDING) ===
+2025-05-13 21:57:10,008 - INFO - Đã thiết lập seed: 42
+2025-05-13 21:57:10,036 - INFO - Sử dụng thiết bị: cuda
+2025-05-13 21:57:10,037 - INFO - Đang chuẩn bị dữ liệu cho fine-tuning...
+2025-05-13 21:57:10,037 - INFO - Không tìm thấy các file tensor. Tạo mới dữ liệu từ file tokenized...
+2025-05-13 21:57:10,094 - INFO - Đã đọc 8056 dòng từ D:\University\SEM6_2024-2025\DS221\Term Project\data\Gold\tokenized_reviews.csv
+2025-05-13 21:57:10,109 - INFO - Số dòng sau khi loại bỏ NaN: 8056
+2025-05-13 21:57:10,109 - INFO - Đang xử lý cột 'aspect' thành danh sách mã số...
+2025-05-13 21:57:10,181 - INFO - Đã loại bỏ 1294 dòng chỉ có aspect là '[0]' (other).
+2025-05-13 21:57:10,181 - INFO - Đang tải PhoBERT tokenizer: vinai/phobert-base...
+2025-05-13 21:57:11,434 - INFO - Tokenizer đã được tải.
+2025-05-13 21:57:11,434 - INFO - Đang tokenize cột 'tokenized_text'...
+2025-05-13 21:57:13,276 - INFO - Đã tokenize văn bản. Shape input_ids: torch.Size([6762, 256])
+2025-05-13 21:57:13,276 - INFO - Đang xử lý nhãn 'sentiment'...
+2025-05-13 21:57:13,276 - INFO - Đã xử lý nhãn sentiment. Shape: torch.Size([6762])
+2025-05-13 21:57:13,276 - INFO - Đang xử lý nhãn 'aspect' (multi-hot)...
+2025-05-13 21:57:13,380 - INFO - Đã xử lý nhãn aspect. Shape: torch.Size([6762, 5])
+2025-05-13 21:57:13,430 - INFO - Đã lưu các tensor tạm thời vào thư mục Gold.
+2025-05-13 21:57:13,455 - INFO - Tập train: 5409 mẫu
+2025-05-13 21:57:13,455 - INFO - Tập validation: 676 mẫu
+2025-05-13 21:57:13,455 - INFO - Tập test: 677 mẫu
+2025-05-13 21:57:19,288 - INFO - Cấu trúc mô hình: MultiTaskPhoBERTCNN
+2025-05-13 21:57:19,291 - INFO - Tổng số tham số: 136,771,210
+2025-05-13 21:57:19,291 - INFO - Số tham số có thể huấn luyện: 136,771,210
+2025-05-13 21:57:19,295 - INFO - Bắt đầu fine-tune với tối đa 10 epochs...
+2025-05-13 21:57:19,297 - INFO - 
+Epoch 1/10
+2025-05-13 22:00:36,752 - INFO - Average training loss: 1.0687
+2025-05-13 22:00:44,018 - INFO - Sentiment - Accuracy: 0.7885, F1: 0.7355
+2025-05-13 22:00:44,019 - INFO - Sentiment - Precision: 0.7103, Recall: 0.7885
+2025-05-13 22:00:44,020 - INFO - Aspect - F1 Micro: 0.8506, F1 Macro: 0.3777
+2025-05-13 22:00:44,020 - INFO - Aspect - Precision: 0.8866, Recall: 0.8175
+2025-05-13 22:00:44,021 - INFO - Cải thiện F1 trung bình từ 0.0000 lên 0.7931
+2025-05-13 22:00:44,980 - INFO - Đã lưu mô hình tốt nhất tại epoch 1
+2025-05-13 22:00:46,911 - INFO - 
+Epoch 2/10
+2025-05-13 22:04:15,331 - INFO - Average training loss: 0.7995
+2025-05-13 22:04:20,481 - INFO - Sentiment - Accuracy: 0.7811, F1: 0.7603
+2025-05-13 22:04:20,481 - INFO - Sentiment - Precision: 0.7428, Recall: 0.7811
+2025-05-13 22:04:20,481 - INFO - Aspect - F1 Micro: 0.9040, F1 Macro: 0.6245
+2025-05-13 22:04:20,481 - INFO - Aspect - Precision: 0.8993, Recall: 0.9087
+2025-05-13 22:04:20,481 - INFO - Cải thiện F1 trung bình từ 0.7931 lên 0.8321
+2025-05-13 22:04:21,185 - INFO - Đã lưu mô hình tốt nhất tại epoch 2
+2025-05-13 22:04:22,882 - INFO - 
+Epoch 3/10
+2025-05-13 22:07:30,493 - INFO - Average training loss: 0.6640
+2025-05-13 22:07:35,721 - INFO - Sentiment - Accuracy: 0.7855, F1: 0.7543
+2025-05-13 22:07:35,721 - INFO - Sentiment - Precision: 0.7337, Recall: 0.7855
+2025-05-13 22:07:35,722 - INFO - Aspect - F1 Micro: 0.9291, F1 Macro: 0.7109
+2025-05-13 22:07:35,722 - INFO - Aspect - Precision: 0.9175, Recall: 0.9411
+2025-05-13 22:07:35,722 - INFO - Cải thiện F1 trung bình từ 0.8321 lên 0.8417
+2025-05-13 22:07:36,416 - INFO - Đã lưu mô hình tốt nhất tại epoch 3
+2025-05-13 22:07:37,661 - INFO - 
+Epoch 4/10
+2025-05-13 22:10:50,771 - INFO - Average training loss: 0.5644
+2025-05-13 22:10:56,016 - INFO - Sentiment - Accuracy: 0.7678, F1: 0.7581
+2025-05-13 22:10:56,017 - INFO - Sentiment - Precision: 0.7565, Recall: 0.7678
+2025-05-13 22:10:56,017 - INFO - Aspect - F1 Micro: 0.9376, F1 Macro: 0.7258
+2025-05-13 22:10:56,018 - INFO - Aspect - Precision: 0.9259, Recall: 0.9496
+2025-05-13 22:10:56,018 - INFO - Cải thiện F1 trung bình từ 0.8417 lên 0.8478
+2025-05-13 22:10:56,716 - INFO - Đã lưu mô hình tốt nhất tại epoch 4
+2025-05-13 22:10:58,060 - INFO - 
+Epoch 5/10
+2025-05-13 22:14:09,126 - INFO - Average training loss: 0.4828
+2025-05-13 22:14:14,336 - INFO - Sentiment - Accuracy: 0.7840, F1: 0.7785
+2025-05-13 22:14:14,337 - INFO - Sentiment - Precision: 0.7736, Recall: 0.7840
+2025-05-13 22:14:14,337 - INFO - Aspect - F1 Micro: 0.9437, F1 Macro: 0.7372
+2025-05-13 22:14:14,337 - INFO - Aspect - Precision: 0.9397, Recall: 0.9477
+2025-05-13 22:14:14,337 - INFO - Cải thiện F1 trung bình từ 0.8478 lên 0.8611
+2025-05-13 22:14:15,051 - INFO - Đã lưu mô hình tốt nhất tại epoch 5
+2025-05-13 22:14:16,787 - INFO - 
+Epoch 6/10
+2025-05-13 22:17:32,537 - INFO - Average training loss: 0.4066
+2025-05-13 22:17:37,785 - INFO - Sentiment - Accuracy: 0.7885, F1: 0.7804
+2025-05-13 22:17:37,786 - INFO - Sentiment - Precision: 0.7757, Recall: 0.7885
+2025-05-13 22:17:37,786 - INFO - Aspect - F1 Micro: 0.9456, F1 Macro: 0.7438
+2025-05-13 22:17:37,786 - INFO - Aspect - Precision: 0.9416, Recall: 0.9496
+2025-05-13 22:17:37,786 - INFO - Cải thiện F1 trung bình từ 0.8611 lên 0.8630
+2025-05-13 22:17:38,490 - INFO - Đã lưu mô hình tốt nhất tại epoch 6
+2025-05-13 22:17:39,743 - INFO - 
+Epoch 7/10
+2025-05-13 22:20:58,633 - INFO - Average training loss: 0.3444
+2025-05-13 22:21:03,985 - INFO - Sentiment - Accuracy: 0.7751, F1: 0.7791
+2025-05-13 22:21:03,986 - INFO - Sentiment - Precision: 0.7876, Recall: 0.7751
+2025-05-13 22:21:03,986 - INFO - Aspect - F1 Micro: 0.9560, F1 Macro: 0.7550
+2025-05-13 22:21:03,986 - INFO - Aspect - Precision: 0.9511, Recall: 0.9610
+2025-05-13 22:21:03,986 - INFO - Cải thiện F1 trung bình từ 0.8630 lên 0.8676
+2025-05-13 22:21:04,718 - INFO - Đã lưu mô hình tốt nhất tại epoch 7
+2025-05-13 22:21:06,053 - INFO - 
+Epoch 8/10
+2025-05-13 22:24:30,989 - INFO - Average training loss: 0.2844
+2025-05-13 22:24:36,233 - INFO - Sentiment - Accuracy: 0.7840, F1: 0.7788
+2025-05-13 22:24:36,233 - INFO - Sentiment - Precision: 0.7753, Recall: 0.7840
+2025-05-13 22:24:36,233 - INFO - Aspect - F1 Micro: 0.9539, F1 Macro: 0.7524
+2025-05-13 22:24:36,233 - INFO - Aspect - Precision: 0.9450, Recall: 0.9629
+2025-05-13 22:24:36,233 - INFO - Không có cải thiện. Đếm: 1/3
+2025-05-13 22:24:36,234 - INFO - 
+Epoch 9/10
+2025-05-13 22:27:45,575 - INFO - Average training loss: 0.2543
+2025-05-13 22:27:50,842 - INFO - Sentiment - Accuracy: 0.7840, F1: 0.7791
+2025-05-13 22:27:50,842 - INFO - Sentiment - Precision: 0.7759, Recall: 0.7840
+2025-05-13 22:27:50,842 - INFO - Aspect - F1 Micro: 0.9577, F1 Macro: 0.7599
+2025-05-13 22:27:50,842 - INFO - Aspect - Precision: 0.9581, Recall: 0.9572
+2025-05-13 22:27:50,843 - INFO - Cải thiện F1 trung bình từ 0.8676 lên 0.8684
+2025-05-13 22:27:51,567 - INFO - Đã lưu mô hình tốt nhất tại epoch 9
+2025-05-13 22:27:53,290 - INFO - 
+Epoch 10/10
+2025-05-13 22:31:00,258 - INFO - Average training loss: 0.2244
+2025-05-13 22:31:05,850 - INFO - Sentiment - Accuracy: 0.7781, F1: 0.7733
+2025-05-13 22:31:05,851 - INFO - Sentiment - Precision: 0.7707, Recall: 0.7781
+2025-05-13 22:31:05,851 - INFO - Aspect - F1 Micro: 0.9597, F1 Macro: 0.7641
+2025-05-13 22:31:05,851 - INFO - Aspect - Precision: 0.9574, Recall: 0.9620
+2025-05-13 22:31:05,852 - INFO - Không có cải thiện. Đếm: 1/3
+2025-05-13 22:31:06,310 - INFO - Đã lưu biểu đồ tại: D:\University\SEM6_2024-2025\DS221\Term Project\logs\finetune_20250513_215710\training_metrics.png
+2025-05-13 22:31:06,324 - INFO - 
+Đánh giá trên tập test...
+2025-05-13 22:31:14,591 - INFO - Đã lưu confusion matrix tại: D:\University\SEM6_2024-2025\DS221\Term Project\logs\finetune_20250513_215710\confusion_matrix.png
+2025-05-13 22:31:14,618 - INFO - Đã lưu báo cáo đánh giá chi tiết vào D:\University\SEM6_2024-2025\DS221\Term Project\logs\finetune_20250513_215710\test_report.txt
+2025-05-13 22:31:14,618 - INFO - Đánh giá mô hình hoàn tất!
+2025-05-13 22:31:14,636 - INFO - Quá trình fine-tune đã hoàn tất!
+2025-05-13 22:31:14,637 - INFO - Mô hình đã được lưu tại: D:\University\SEM6_2024-2025\DS221\Term Project\models\phobert_finetuned
+2025-05-13 22:31:14,637 - INFO - Kết quả đánh giá và biểu đồ đã được lưu tại: D:\University\SEM6_2024-2025\DS221\Term Project\logs\finetune_20250513_215710
+2025-05-13 22:31:14,637 - INFO - 
+=== KẾT QUẢ CUỐI CÙNG ===
+2025-05-13 22:31:14,637 - INFO - Sentiment - Accuracy: 0.7888
+2025-05-13 22:31:14,637 - INFO - Sentiment - F1 Score: 0.7914
+2025-05-13 22:31:14,638 - INFO - Aspect - F1 Micro: 0.9564
+2025-05-13 22:31:14,638 - INFO - Aspect - F1 Macro: 0.7477
+2025-05-13 22:31:14,639 - INFO - === KẾT THÚC QUÁ TRÌNH FINE-TUNE PHOBERT ===

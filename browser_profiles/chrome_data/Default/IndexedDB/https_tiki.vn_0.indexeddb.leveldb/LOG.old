@@ -1,2 +1,3 @@
-2025/05/13-12:17:08.333 327c Creating DB D:\University\SEM6_2024-2025\DS221\Term Project\browser_profiles\chrome_data\Default\IndexedDB\https_tiki.vn_0.indexeddb.leveldb since it was missing.
-2025/05/13-12:17:08.338 327c Reusing MANIFEST D:\University\SEM6_2024-2025\DS221\Term Project\browser_profiles\chrome_data\Default\IndexedDB\https_tiki.vn_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/13-21:22:04.535 5270 Reusing MANIFEST D:\University\SEM6_2024-2025\DS221\Term Project\browser_profiles\chrome_data\Default\IndexedDB\https_tiki.vn_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/13-21:22:04.535 5270 Recovering log #3
+2025/05/13-21:22:04.553 5270 Reusing old log D:\University\SEM6_2024-2025\DS221\Term Project\browser_profiles\chrome_data\Default\IndexedDB\https_tiki.vn_0.indexeddb.leveldb/000003.log 

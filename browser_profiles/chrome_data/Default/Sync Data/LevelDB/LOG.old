@@ -1,2 +1,3 @@
-2025/05/13-12:17:03.732 327c Creating DB D:\University\SEM6_2024-2025\DS221\Term Project\browser_profiles\chrome_data\Default\Sync Data\LevelDB since it was missing.
-2025/05/13-12:17:03.762 327c Reusing MANIFEST D:\University\SEM6_2024-2025\DS221\Term Project\browser_profiles\chrome_data\Default\Sync Data\LevelDB/MANIFEST-000001
+2025/05/13-21:22:02.603 16d0 Reusing MANIFEST D:\University\SEM6_2024-2025\DS221\Term Project\browser_profiles\chrome_data\Default\Sync Data\LevelDB/MANIFEST-000001
+2025/05/13-21:22:02.605 16d0 Recovering log #3
+2025/05/13-21:22:02.605 16d0 Reusing old log D:\University\SEM6_2024-2025\DS221\Term Project\browser_profiles\chrome_data\Default\Sync Data\LevelDB/000003.log 
