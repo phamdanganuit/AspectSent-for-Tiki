@@ -1,0 +1,47 @@
+# Bỏ qua thư mục và file tạm
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Bỏ qua thư mục venv
+venv/
+ENV/
+
+# Bỏ qua các file và thư mục PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Bỏ qua các file và thư mục VS Code
+.vscode/
+*.code-workspace
+
+# Bỏ qua file và thư mục Jupyter
+.ipynb_checkpoints/
+
+# Bỏ qua các file và thư mục cụ thể của dự án
+browser_profiles/
+logs/
+data/Gold/
+*.log
+
+# Bỏ qua model file vì kích thước quá lớn
+models/phobert_finetuned/best_model.pt 

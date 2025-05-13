@@ -135,17 +135,20 @@ pip install -r requirements.txt
 
 Đảm bảo bạn đã cài đặt Chrome và ChromeDriver phù hợp với phiên bản Chrome của bạn. Dự án sử dụng `webdriver_manager` để tự động tải ChromeDriver phù hợp.
 
-### Bước 4: Tải mô hình (tùy chọn)
+### Bước 4: Tải mô hình
 
-Nếu bạn không muốn huấn luyện lại mô hình, có thể tải mô hình đã được huấn luyện sẵn:
+Mô hình đã được huấn luyện sẵn có thể tải từ Google Drive:
 
 ```bash
 # Tạo thư mục chứa mô hình
 mkdir -p models/phobert_finetuned
 
-# Tải mô hình đã huấn luyện (thay thế link bên dưới bằng link thực tế)
-# wget <link-to-model> -O models/phobert_finetuned/best_model.pt
+# Tải mô hình đã huấn luyện từ Google Drive
+# Link tải: https://drive.google.com/drive/folders/1xPzW1QtjgUnX8JZbz6HTZoc_3rDoGOCr?usp=sharing
+# Sau khi tải xuống, đặt file best_model.pt vào thư mục models/phobert_finetuned/
 ```
+
+> **Lưu ý**: File mô hình có kích thước lớn (~522MB) nên không được lưu trữ trên GitHub. Vui lòng tải từ Google Drive theo đường dẫn ở trên.
 
 ## 🎮 Sử dụng
 
