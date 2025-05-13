@@ -1,0 +1,598 @@
+type,content,aspect,title,TH1_aspect,TH1_title,TH2_aspect,TH2_title,TH3_aspect,TH3_title
+3,Tốt nha,quality,5,2,5.0,2,5.0,2,5.0
+8,"Chất quần xấu, nilon thô bí",quality,1,2,2.0,2,1.0,2,1.0
+25,"Dùng thích lắm mn ạ , ko hề có mùi , an toàn cho da tay nữa rửa xong tay vẫn mềm chứ k bị khô như các loại dầu rửa bát khác đâu ạ","ship, quality",5,2,5.0,2,5.0,2,5.0
+10,"sản phẩm đẹp, chất liệu khá tốt đi vào cảm giác rất êm chân mà độ ôm và co giãn rất tốt","quality, price",5,2,5.0,2,5.0,2,5.0
+5,"Nồi nhỏ gọn , áp suất nồi rất tốt , sp đúng chính hãng check đc bảo hành chính hãng . Giao hàng của TIKI rất nhanh,đồng kiểm dễ dàng . Chưa biết sử dụng nv cskh của Elmich hướng dẫn , trả lời thắc mắc rất nhiệt tình . Nên mua tại đây nha mn .TIKI trading và cskh Elmich Thu gọn","ship, quality, cskh",5,"1,24",5.0,"1,2,4",5.0,"1,24",5.0
+19,"Giao hàng siêu nhanh, đặt 2h sáng, tới trưa giao, đóng gói kỹ, thị ngon, rất ưng.",ship,4,4,5.0,4,5.0,4,5.0
+13,"(*) Đánh giá không tính điểm Giao hàng chậm, không đóng gói thêm bên ngoài. Lúc nhận hộp móp méo ko nguyên vẹn, không biết có bị va đập ảnh hưởng tới linh kiện không. tem dán ốc thì bị rách, làm sao bảo hành sau này? Thu gọn","ship, quality, price",3,"2,4",2.0,4,1.0,"2,4",1.0
+11,Sản phẩm ok Đúng như giá tiền,"quality, price",1,"2,3",5.0,2,5.0,"2,3",5.0
+9,"Giao hàng nhanh, đóng gói kỉ hàng nguyên vẹn",ship,5,4,5.0,4,5.0,4,5.0
+9,"cửa hàng phân phối sản phẩm chính hãng, giao hàng, đóng gói cẩn thận, ok, tiếc là đặt xong đã hết hàng, hsd rõ ràng",ship,5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+7,"Không hiệu quả như loại ở các chỗ rửa xe hơi. Đã thử các vết dơ bụi đường, chà không sạch.",quality,3,2,2.0,2,1.0,2,1.0
+15,"shop bán hàng tốt, giao nhanh","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+11,Vải đẹp,quality,5,2,5.0,2,5.0,2,5.0
+21,"Túi rất nhiều ngăn, chất liệu tốt, không thấm nước. Tuy nhiên túi không có độ co dãn nên không để đồ nhiều được (đậc biẹt là để quần áo)",quality,4,2,4.0,2,4.0,2,4.0
+0,may quá sách mình không bị xấu,quality,5,2,4.0,2,5.0,2,5.0
+0,"Mỗi lần mua sách là mình sẽ qua Tiki vì ở đây vừa rẻ mà lại còn chất lượng, giao hàng nhanh nữa nên mua nhé","ship, quality, price",5,"2,3,4",5.0,"2,3,4",5.0,"2,3,4",5.0
+7,Dịch vụ tốt nhân viên nhiệt tình.thanks,"quality, cskh",5,1,5.0,"1,2",5.0,1,5.0
+8,áo bị sủi dù mặc mới đc 3 lần,quality,1,2,2.0,2,1.0,2,1.0
+16,Dùng được,quality,5,2,5.0,2,5.0,2,5.0
+6,"thấm dầu không tốt lắm, nên dùng phim thấm dầu",quality,3,2,3.0,2,3.0,2,3.0
+5,"Mẫu mã đẹp, chưa sử dụng, hy vọng chất lượng tốt, sẽ đánh giá thêm sau khi sử dụng","quality, price",5,2,4.0,2,5.0,2,5.0
+15,"Hàng chính hãnh, chuẩn chỉnh. Đóng gói cẩn thận, giao nhạn.",ship,5,4,5.0,"2,4",5.0,4,5.0
+18,"gọng đẹp, tròng kính ko đặc sắc.",quality,3,2,4.0,2,4.0,2,4.0
+6,giấy mỏng. thấm dầu tốt n k thấm được nhiều. 1 lần thấm phải dùng 2 3 tờ mới hết mặt . tạm được,quality,4,2,5.0,2,3.0,2,3.0
+11,"Sản phẩm tốt , màu đẹp",quality,5,2,5.0,2,5.0,2,5.0
+9,Tôi rất hài lòng sản phẩm và dịch vụ bán hàng,cskh,5,"1,2",5.0,"1,2",5.0,"1,2",5.0
+4,loa nghe hay dạ mang,quality,5,2,5.0,2,5.0,2,5.0
+7,Gói hỗ trợ phù hợp. Rất đáng để sử dụng,cskh,5,"1,2",5.0,"1,2",5.0,"1,2",5.0
+3,"Giá cả phải chăng,giao hàng nhanh,date mới.","ship, quality, price",5,"3,4",5.0,"2,3,4",5.0,"3,4",5.0
+15,Kết nối tốt nút bấm êm giao hàng nhanh rất vui và vừa ý sẽ ủng hộ tiếp,"ship, quality",5,2,5.0,2,5.0,2,5.0
+22,"Giá trị hơi cao nên chuyển hơi chậm tý, mém chút không kịp mua iphone rồi",price,5,"3,4",4.0,3,3.0,"3,4",3.0
+16,"Tôi khá ưng sản phẩm, nhưng giao hàng chậm hơn so với lịch dự kiến.","ship, quality",5,"2,4",4.0,"2,4",4.0,"2,4",4.0
+25,tuyệt đấy - làm sạch máy rất tốt,quality,5,2,5.0,2,5.0,2,5.0
+7,"giao hàng nhanh hơn dự kiến,mẫu mã đẹp","ship, quality",4,"2,4",5.0,"2,4",5.0,"2,4",5.0
+14,"chưa sử dụng, sp đúng mẫu mã, chất lượng phải chờ đánh giá sau","quality, price",5,2,5.0,2,5.0,2,5.0
+0,"mình ch đọc nma sách đóng gói siêu cẩn thận luôn í, bìa ngoài nhìn khá xinh không có gì để chê",ship,5,2,5.0,2,5.0,2,5.0
+24,Hàng đẹp lắm shop ơi đường chỉ đều da đẹp chưa vao giờ hài lòng như lần mua này,quality,5,2,5.0,2,5.0,2,5.0
+18,đẹp tuyệt vời,quality,5,2,5.0,2,5.0,2,5.0
+15,Sản phẩm giao không đúng với mô tả. Mình order điều khiển có giọng nói nhưng nhận được sản phẩm đồ điều khiển bình thường,"ship, quality",1,2,1.0,2,1.0,2,1.0
+14,"Dép mềm, êm còn chất lượng chờ thời gian mới bit ae.",quality,5,2,5.0,2,5.0,2,5.0
+4,Loa nghe rất ổn nha. Hàng giao nhanb,ship,5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+25,"bọt ít, chất lượng tô",quality,4,2,4.0,2,5.0,2,5.0
+7,"sp đẹp, giao hàng nhanh, hài lòng","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+9,"giao hàng nhanh, hang sử dung còn xa mình hài lòng lắm",ship,5,4,5.0,"2,4",5.0,4,5.0
+3,"Đóng gói kỹ càng, vận chuyển nhanh Hạn sử dụng đến năm 2023",ship,5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+9,Hàng ok giao hơi lâu và bị méo hộp,ship,5,"2,4",4.0,"2,4",4.0,"2,4",4.0
+20,Sản phẩm đẹp. Đóng gói cẩn thận.,"ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+5,"Lò xài tốt nha các bạn, nhưng hai mặt bên của lò và mặt trước của vỉ nấu sẽ hơi nóng khi hoạt động chứ không mát nhé. Phía trước của vỉ có dán quảng cáo của nsx, bạn nào không thích có thể gỡ ra khi vừa chế biến món ăn sẽ không bị dính keo nha, nên xài giấy nến hay giấy bạc khi nấu sẽ đỡ hơn khi vệ sinh nè. Thu gọn",quality,5,2,5.0,2,5.0,2,5.0
+5,- Nắp đậy không chắc và sau khi cho nguyên liệu vào cối thì đậy nắp hơi khó. - Còn lại thì ok,quality,4,2,4.0,2,4.0,2,4.0
+3,giao hang khong đung ngay,ship,2,4,3.0,4,2.0,4,2.0
+20,Có mùi thơm nhẹ. Shop đóng gói sản phẩm tốt. Các bạn nên mua nha,"ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+9,"giá tốt+ giao nhanh+ date hơi xa( 5 tháng),ko bị méo mó.quá tuyệt vời luôn.","ship, quality, price",5,"2,3,4",5.0,"2,3,4",5.0,"2,3,4",5.0
+25,"Đã mua lần 2, sản phầm dùng tốt, có bọt, không mùi, rửa sạch, an toàn cho da tay. Shop đóng gói rất kỹ và giao hàng rất nhanh.","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+10,Áo chất lượng đẹp.giao nhanh.nên mua nhé mọi ng,"ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+0,Sách mới tin juan,quality,5,2,5.0,2,5.0,2,5.0
+20,"nhìn vậy tưởng cũng ko đến nổi, ai ngờ chỉ có trán vừa cái vòng tròn thôi. cuộn màu trắng nhìn thấy lỏi bên trong luôn. thà cứ tăng giá mà chất lượng còn hơn!","quality, price",2,"2,3",2.0,2,1.0,"2,3",1.0
+7,không ý kiến.trải nghiệm không tốt tại dũng tiến q7,quality,3,2,1.0,2,1.0,2,1.0
+0,Cuốn sách kỳ diệu như tên của nó vậy.,quality,5,2,5.0,2,5.0,2,5.0
+6,"Hàng chất lượng, đóng gói cẩn thận. Shipper dể thương, chờ gần 10p mà không phàn nàn gì.","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+23,Giao hàng nhanh. Hàng đúng như mẫu. Cơ bản về tổng thể nhìn đẹp. Tuy nhiên chất lượng gia công chưa kỹ lắm đường gân mặt phải chưa cân đối. Tuy nhiên với giá tiền là chấp nhận được.,"ship, quality, price",4,"2,3,4",4.0,"2,3,4",5.0,"2,3,4",5.0
+20,Đóng gói ko phải bàn gì thêm rất ok. Cam on shop.ưng ý.,ship,5,4,5.0,4,5.0,4,5.0
+5,"Rất ưng, nồi tốt giống quảng cáo",quality,5,2,5.0,2,5.0,2,5.0
+11,vải ngon áo đẹp hợp với các bạn trẻ,"quality, price",5,2,5.0,2,5.0,2,5.0
+6,"Mỏng ở mức vừa phải phù hợp với giá tiền, k có mùi cao su nên tổng quan thấy sản phẩm này ổn áp nhé. Bạn nào thích thật hơn thì hãy thử nhưng loại khác của Nhật 0,01 chứ mình thấy durux invisible chỉ ở mức vừa phải hợp lí với túi tiền thôi. Nhưng nó cũng có điểm mạnh là so với các sản phẩm khác thấy vượt trội hẳn Thu gọn","quality, price",5,"2,3",5.0,2,5.0,"2,3",5.0
+9,"sữa ngon, giá hời",price,5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+16,kiểu dáng đẹp và sang trọng như thế này thì không thể không nhắc đến tên tuổi lớn trong ngành công nghiệp,quality,5,2,5.0,2,5.0,2,5.0
+3,"hơi thất vọng, đáng lý sữa phải được vận chuyển kỹ, tránh va đập, hộp sữa này mình mới nhận, đúng ra sẽ kg nhận nhưng thấy ngại cho a vận chuyển nên mình nhận luôn","ship, quality",2,4,1.0,4,1.0,4,1.0
+22,Phiếu quà tặng rất tốt! Bạn của mik nhận dc gửi mã 1 phát là đã có 200k tiki xu!,quality,5,2,5.0,2,5.0,2,5.0
+3,"Hàng chính hãng, date còn rất xa mà giá lại rất tốt so với mua ngoài shop.","quality, price",5,2,5.0,2,5.0,2,5.0
+11,"Giao hàng nhanh,sản phẩm đúng mô tả,còn chắc lượng thì chưa biết","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+3,"mùi vị thơm ngon bé rất thích sữa đóng gói đẹp mẫu mã nhìn thích, rất hài lòng","ship, quality",5,"2,4",5.0,2,5.0,"2,4",5.0
+18,"hình xăm đẹp, bền, rất tốt sẽ tiếp tục ủng hộ shop",quality,4,2,5.0,2,5.0,2,5.0
+3,"Giao hàng nhanh chóng,",ship,3,4,5.0,4,5.0,4,5.0
+23,"Chất lượng sản phẩm tuyệt vời. Nhìn vẻ bề ngoài thì túi xách khá là đẹp mắt và sang trọng. Chất liệu của túi rất là bền chắc và đẹp, trơn láng mịn màng. Bên trong túi rất là rộng để cho mình bỏ đồ thoải mái mà ko sợ chật. Mình rất thích sản phẩm này. Shop phục vụ rất tốt Thu gọn","quality, cskh",5,"1,2",5.0,"1,2",5.0,"1,2",5.0
+14,"Dép đẹp, chắc chắn, đế mêm di rất êm chân. Rất ưng ý",quality,5,2,5.0,2,5.0,2,5.0
+15,"Tôi đặt mua Remote điều khiển giọng nói, sao lại giao lại không có vậy?","ship, quality",1,2,1.0,2,1.0,2,1.0
+14,"Rất vừa chân, quai dép hơi mềm, độ bền chờ thời gian sử dụng mới đánh giá được.","quality, price",5,"2,3",5.0,2,5.0,"2,3",5.0
+22,"giao hàng siêu nhanh, ưu đãi tốt mặc dù chả bao giờ tiki sale cả, chỉ canh lúc được tặng mã giảm giá ở các ví điện tử để mua thôi","ship, quality, price",5,"2,4",5.0,4,5.0,"2,4",5.0
+12,"Truyện cực kỳ cuốn luôn. Giao hàng nhanh, sớm hơn 10 ngày so với dự kiến. Có điều chữ nhỏ quá đọc hơi mỏi mắt.",ship,5,"2,4",4.0,"2,4",5.0,"2,4",5.0
+0,sách viết rất hay. tiki giao hàng rất nhanh,"ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+13,"Mình ở HCM mà hàng được ship từ HN nên hơi lâu, màn hình 4K đẹp. Màu đẹp. Nói chung hài lòng","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+14,"Mua được hàng giame giá nên rất thích, dép đi tronh nhà êm và khá là dễ chịu",price,5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+19,"Giao siêu nhanh luôn. M đặt thử nên chỉ mua vài món. Sẽ tiếp tục ủng hộ shop. Thịt đóng gói sạch sẽ, riêng biệt, ngon miệng.",ship,5,4,5.0,"2,4",5.0,4,5.0
+14,nhin cũng ok ko biet co ben ko,quality,5,2,5.0,2,5.0,2,5.0
+16,"Êm chân, giá mềm, đóng gói kỹ càng, giao nhanh","ship, price",5,"2,3,4",5.0,"2,3,4",5.0,"2,3,4",5.0
+3,Giao hàng nhanh! Vừa đặt lúc tối sáng nay đã giao tới. Sữa hợp khẩu vị của bé.,ship,5,4,5.0,"2,4",5.0,4,5.0
+4,"Âm thanh tương đối, dây nhỏ mềm. dùng ổn",quality,4,2,4.0,2,4.0,2,4.0
+10,"Băng gối hỗ trợ rất tốt ,đi lại dễ dàng khi đầu gối bị đau","quality, cskh",5,2,5.0,2,5.0,2,5.0
+19,Thịt Ngon lắm lun . Gói hàng kỹ. Giao hàng cũng nhanh nữa,"ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+14,Giày giống như mô tả,quality,5,2,5.0,2,5.0,2,5.0
+6,Thấm dầu tốt.Giá siêu ổn mà chất lượng cực tốt.Lần sau mình sẽ mua nữa,"quality, price",5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+5,"Đóng gói hàng kĩ , hàng nhận được nhanh",ship,5,4,5.0,4,5.0,4,5.0
+20,"Cảm ơn shop nhé. Màu rất đẹp, mùi thơm nhẹ, shop đóng gói hàng đẹp","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+19,"Hàng đóng gói cẩn thận. Nhưng theo tôi, mặt bóng này phải quay vào trong mới có tác dụng cách nhiệt.","ship, quality",5,"2,4",4.0,4,5.0,"2,4",5.0
+3,giao nhanh. hangg tốt,"ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+2,Máy mới nguyên hộp. Ủng hộ Tiki uy tín 5 sao,quality,5,2,5.0,2,5.0,2,5.0
+21,"Sản phẩm y như hình, chất liệu vải mềm và mịn",quality,5,2,5.0,2,5.0,2,5.0
+17,"chắc chắn, ship nhanh hàng ok. mua ở đây tốt đó","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+3,"Mua nhiều lần rồi , vì chính hãng tiki nên cũng yêb tâm ,",quality,5,2,5.0,2,5.0,2,5.0
+25,sp tốt. ko làm khô da tay.,quality,5,2,5.0,2,5.0,2,5.0
+5,"Nồi cx tạm ổn, nhưng các lò xo và chốt hơi lỏng lẻo",quality,4,2,5.0,2,4.0,2,4.0
+9,"giao hàng nhanh, gói hàng kỹ, sản phẩm tốt còn có quà tặng đi kèm nữa. Shop rất chu đáo luôn","ship, quality",5,"1,2,4",5.0,"1,2,4",5.0,"1,2,4",5.0
+22,"giày đẹp, new, giá hot. giao nhanh.","ship, quality, price",5,"2,3,4",5.0,"2,4",5.0,"2,3,4",5.0
+2,Mình đã nhận hàng đúng ngày. Chất lượng tuyệt vời. Giá cả hợp lý. Rất thích hợp cho những ai thích đọc ebook,"ship, quality, price",5,"2,3,4",5.0,"2,3,4",5.0,"2,3,4",5.0
+4,giao rất nhanh,ship,5,4,5.0,4,5.0,4,5.0
+16,"Giày đi êm, vừa vặn, chắc chắn, mình rất hài lòng. Mình sẽ ủng hộ shop",quality,5,2,5.0,2,5.0,2,5.0
+11,Êm vải co giãn tốt,quality,5,2,5.0,2,5.0,2,5.0
+22,"Mình cực kì hài lòng về chất lượng của sản phẩm. Bên cạnh đó, việc đóng gói rất kín và chắc chắn, giao hàng nhanh, nhân viên giao hàng tận tình.!","ship, quality, cskh",5,"1,2,4",5.0,"1,2,4",5.0,"1,2,4",5.0
+0,giao hàng nhanh và chất lượng rất tốt ?,"ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+15,Chức năng điều khiển giọng nói không dùng được. Có thể là không tương thích với tivi Sony model 2017.,quality,4,2,2.0,2,1.0,2,1.0
+3,gói cẩn thận nhưng k hiểu sao bị móp 1 bên. vẫn đánh giá 5*,"quality, price",5,4,5.0,4,5.0,4,5.0
+3,sữa chính hãng nhưng đóng goi quá cẩu thả nên ko hài lòng lắm,quality,2,"2,4",3.0,"2,4",2.0,"2,4",2.0
+11,"Quần tốt , mặc ok. giá rẻ so với chất lượng ,,..","quality, price",5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+21,shop giao sai sản phẩm. shop lớn mà làm ăn cực chán.,ship,1,4,1.0,4,1.0,4,1.0
+21,Shop đóng gói kĩ. Hàng hoá chất lượng. Vận chuyển nhanh . Đánh giá 5 sao cho shop. Cố gắng phát triển . Tiki number One !,"ship, quality, price",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+21,"Màu đẹp, bên trong khá đẹp, mềm. Phù hợp xách đi làm. Đẹp",quality,5,2,5.0,2,5.0,2,5.0
+4,"Loa đẹp, nghe mượt, chắc chắn, rất thích",quality,5,2,5.0,2,5.0,2,5.0
+3,"Đóng gói sản phẩm cẩn thận. Giao hàng tiêu chuẩn nhưng rất nhanh, cực kì ưng khoản này. Tuy nhiên với cá nhân mình thì mình lại ko cần bọc từng hộp sữa bằng nilon như thế kia vì thấy tốn nilon quá hic. Thu gọn","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+0,"Mình nghe review rất nhiều và mạnh về cuốn sách, nhưng thực sự bản thân mình k có ấn tượng vs nội dung- cảm giác như lí thuyết suông kiểu gì đó","quality, price",4,2,3.0,2,3.0,2,3.0
+22,"Dễ dùng, tiện lợi",quality,5,2,5.0,2,5.0,2,5.0
+11,"chất liệu đẹp, nhân viên nhiệt tình, ảnh này mình chụp cam thường, mình nặng 57kg và cao 1m68 cho bạn nào muốn tham khảo, chúc shop nhiều sức khỏe!","quality, cskh",5,"1,2",5.0,"1,2",5.0,"1,2",5.0
+13,"Thiết bị nhìn nhỏ, gọn, tốc độ ok. Shop giao hàng nhanh.",ship,5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+5,Tôi chỉ xay hành tỏi. Đáp ứng tốt yêu cầu của tôi.,quality,5,2,5.0,2,5.0,2,5.0
+13,"sản phẩm đẹp, sáng , phân giải 4k quá đẹp , giao hàng nhanh !","ship, quality",5,2,5.0,"2,4",5.0,2,5.0
+6,Chuẩn như quảng cáo chưa biết chất lượng thế nào,quality,5,2,5.0,2,5.0,2,5.0
+6,"giao hàng nhanh, tuy nhiên giấy thấm hơi mỏng",ship,5,4,5.0,"2,4",3.0,4,3.0
+5,"hàng chính hãng, không có gì phải bàn, nồi nhỏ xinh, phù hợp 1-2 người ăn. nồi chắc chắn dày dặn",quality,5,2,5.0,2,5.0,2,5.0
+15,Chắc chắn,quality,5,2,5.0,2,5.0,2,5.0
+0,"Sách viết rất chung chung, học thuật hay kỹ năng cũng không rõ. Với hiểu biết hiện tại tôi thấy ko có giá trị mấy,","quality, price",2,2,3.0,2,2.0,2,2.0
+23,"Mình mua màu xanh mà giao màu đen, mình rất làm biếng vụ chụp hình, quay video rồi đổi trả nên lấy luôn nhưng cực kỳ ghét mấy shop làm ăn bát nháo như vậy.","ship, quality",2,"2,4",1.0,4,1.0,"2,4",1.0
+23,Hàng đẹp lắm y hình quá hài lòng,quality,5,2,5.0,2,5.0,2,5.0
+11,"áo đẹp , vải mềm, co giãn, thấm hút tốt . Giá quá rẻ","quality, price",5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+25,cũng ok. lúc đăt ko nghỉ giấy loại mini,quality,4,2,4.0,2,5.0,2,5.0
+9,Nhanh gọn bổ hạt rẻ,price,5,"2,3",5.0,"2,3,4",5.0,"2,3",5.0
+3,Giao hàng nhanh. Hàng ok lắm ạ,ship,5,"2,4",5.0,4,5.0,"2,4",5.0
+7,Đã mua 2 chiếc. CH rất nhiệt tình và giá rất ok,"price, cskh",5,"1,2,3,4",5.0,"1,2,3",5.0,"1,2,3,4",5.0
+7,Dịch vụ ok,cskh,5,1,5.0,1,5.0,1,5.0
+7,dùng tốt,quality,5,2,5.0,2,5.0,2,5.0
+25,"Sản phẩm tốt đối với mình, mùi thơm dễ chịu, không nhiều bọt, đỡ tốn tiền nước nhưng quần áo vẫn sạch sẽ và thơm lâu.","quality, price",5,2,5.0,2,5.0,2,5.0
+19,"tốt, ngon",quality,5,"2,3",5.0,2,5.0,"2,3",5.0
+6,giấy thấm tốt,quality,5,2,5.0,2,5.0,2,5.0
+3,"giao hàng đungs hẹn , sữa hơi ngọt ạ",ship,4,"2,4",4.0,"2,4",4.0,"2,4",4.0
+3,San pham tot giao hang hoi cham,ship,5,"2,4",4.0,"2,4",4.0,"2,4",4.0
+11,Giao hàng nhanh . Hàng đẹp đúng mẫu ( sáng thứ 2 Đặt chiều thứ 3 lấy hàng),"ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+3,Con minh uống sữa này hợp tác. Giá tiki rẻ,price,5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+0,"Sách xinh, giao nhanh. Về cái đọc vèo 100 trang lun ạ",ship,5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+23,giống hình ko biết dùng 1 tgian có bị bong da ko . nhận hàng về thấy ok,"ship, quality",5,2,5.0,2,5.0,2,5.0
+25,"đóng gói ko chắn chắn, chưa dùng sp nên chưa biết ntn","ship, quality",3,4,5.0,4,5.0,4,5.0
+3,Hàng giao hơi bị trễ,ship,5,4,3.0,4,2.0,4,2.0
+20,chỉ thơm nhẹ nhưng đeo lên tay khá đẹp,quality,4,2,4.0,2,5.0,2,5.0
+4,"Đẹp, nghe tốt!",quality,5,2,5.0,2,5.0,2,5.0
+15,"Giao hàng nhanh, giá đỡ chắc chắn, gọn gàng.","ship, quality, price",5,4,5.0,"2,4",5.0,4,5.0
+16,giày rất đẹp. 1 điểm trừ là mình mua 2 đôi nhưng shop chỉ cho 1 cái hộp. Mình lại rất thích bảo quản giày trong hộp.,quality,5,2,4.0,2,5.0,2,5.0
+2,"Nhìn rõ nét dứoi ánh mặt trời, đẹp, giao hàng nhanh","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+0,"Mình được a.c trong nhóm tiểu thuyết recoment bộ này. Ấn tượng với bìa sách Nhưng mình chưa đọc, sẽ trả review cho mn sau nha Mn thử đọc nha",quality,5,2,5.0,2,5.0,2,5.0
+25,Sản phẩm dùng tốt.,quality,5,2,5.0,2,5.0,2,5.0
+18,"Kính đẹp nha mọi người, nhìn khá là sang, gọng kính cũng cứng cáp chứ ko lỏng đâu",quality,5,2,5.0,2,5.0,2,5.0
+14,"Sản phẩm rất tốt, giao hàng nhanh, đóng gói cẩn thận có tặng thêm quà nữa, rất hài lòng với shop","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+13,"Vận chuyển nhanh, hàng dùng tốt","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+9,"Ăn cũng tạm được ,sợi hơi dai.kết quả giảm cân hay kg 1 thơi gian mới đánh giá được.Nói chung gia cả hợp lý.","quality, price",5,"2,3",5.0,2,4.0,"2,3",4.0
+9,Giao nhanh giá rẻ,"ship, price",5,"3,4",5.0,"3,4",5.0,"3,4",5.0
+0,"sách mới, nội dung hay lắm nha mn",quality,5,2,5.0,2,5.0,2,5.0
+25,"Khăn giấy đóng gói đẹp, chất lượng giấy mềm mịn, tương đối tốt. Có thể sử dụng để thấm hút nước, lau chùi với mức độ thấm nước tương đối. Sản phẩm khá tốt trong tầm giá.","ship, quality, price",5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+4,Nghe nhạc bình thường. Không được hay lắm,quality,3,2,3.0,2,3.0,2,3.0
+3,"Shop đóng gói hàng rất cẩn thận, giao hàng rất nhanh nữa! chất lượng sản phẩm rất okie, rất hợp bé nhà mình!","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+16,Màu ok. Phối đồ đi làm đẹp,quality,5,2,5.0,2,5.0,2,5.0
+11,Sp nhỏ Quá không chất lượng,quality,3,2,1.0,2,1.0,2,1.0
+0,"Tuy khâu đóng gói hơi sơ sài, hàng về thì hộp đã bị méo mó. Cơ mà chất lượng sản phẩm vẫn rất tuyệt vời","ship, quality",5,"2,4",4.0,"2,4",4.0,"2,4",4.0
+7,"Giao hàng thân thiện, chất lượng đúng mô tả. cảm ơn!","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+13,"Mình hài lòng với sản phẩm. Ưu: Giá cả phải chăng. Màn hình to 27inch. Độ phân giải 4k rõ đẹp. Nhược: Có một hai chỗ hở sáng nhẹ nên chấp nhận được. Nhược điểm là tốc độ làm mới khi bật 4k chỉ là 30hz. Chân đế cố định không nâng hạ được. Kết: Phù hợp để làm việc văn phòng, đánh chữ gõ code. Không phù hợp để chơi game xem phim hành động. Update: Sau khi mình comment thì bộ phận chăm sóc khách hàng của Tiki đã liên hệ mình để tiến hành kiểm tra sản phẩm. Sau khi bên kỹ thuật LG kiểm tra và xác nhận lỗi hở sáng thì mình được đổi màn hình mới. Hoàn hảo và không có điểm hở sáng nào trên màn hình. Mình rất hài lòng, cho 10 sao haha. Mình cảm ơn sự hỗ trợ của các anh/chị/em trong bộ phận chăm sóc khách hàng của Tiki. Thu gọn","quality, price, cskh",5,"1,2,3",5.0,"1,2",5.0,"1,2,3",5.0
+5,"Sản phẩm tốt cho gia đình ít người, rất kinh tế",quality,5,"2,3",5.0,2,5.0,"2,3",5.0
+12,"Hay xuất sắc. Ko thể tin được các nhân vật trong truyện là giả tưởng, nhưng mình cảm thấy câu chuyện, mọi thứ đều rất sống động và chân thật, cảm giác nó rất ""đời"". Đọc rồi vẫn muốn đọc lại lần nữa","quality, price",5,2,5.0,2,5.0,2,5.0
+11,vải tốt,quality,5,2,5.0,2,5.0,2,5.0
+22,Tôi rất thất vọng tiki không có hướng dẫn sử dụng phiếu quà tặng để mua hàng trên tiki,quality,1,1,1.0,1,1.0,1,1.0
+14,"mình mua tặng bố! đép da mềm, đẹp đi êm chân",quality,5,2,5.0,2,5.0,2,5.0
+9,giao hàng hoi lâu,ship,4,4,3.0,4,1.0,4,1.0
+11,"Giao hàng nhanh, chất lượng tốt, dẹp","ship, quality",2,"2,4",5.0,"2,4",5.0,"2,4",5.0
+8,Áo khá ổn với giá tiền,price,4,2,5.0,"2,3",4.0,2,4.0
+16,"sản phẩm tốt, nhân viên nhiệt tình, ủng hộ shop","quality, cskh",5,2,5.0,"1,2",5.0,2,5.0
+6,"Lần đầu tiên Sài, ko ngờ hàng tốt như thế, cực kì đáng tiền,ưng;)","quality, price",5,"2,3",5.0,2,5.0,"2,3",5.0
+2,"Máy mới, xài mượt, pin lâu giá cả hợp lý","quality, price",5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+23,"Nhìn sang.., đẹp! Giá rẻ trong tầm","quality, price",5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+2,Hàng mới cứng và chất lượng lắm ạ.,quality,5,2,5.0,2,5.0,2,5.0
+3,"hàng ok ,giao hàng hơi lau",ship,5,"2,4",4.0,"2,4",4.0,"2,4",4.0
+22,Rất tốt khi mua sản phẩm trả góp quá hạn mức,quality,4,2,5.0,2,5.0,2,5.0
+4,"Xấu, âm thanh kém. Ko đẹp như hình ảnh đã chụp.",quality,1,2,1.0,2,1.0,2,1.0
+11,"Hàng theo mọi người đánh giá đúng là may đẹp, nhưng chất liệu sản phẩm không như quảng cáo ( 95% cotton + 5% spandex ), tức là có sự co dãn nhẹ.nhưng hàng nhận được không có chút co dãn nhẹ nào ( thất vọng ). Hy vọng nhà bán hàng nên trung thực để tạo sự tin tưởng cho khách hàng. Thu gọn","quality, price, cskh",3,2,2.0,2,1.0,2,1.0
+25,Ít bọt nhưng sạch,quality,5,2,4.0,2,5.0,2,5.0
+20,Hàng đẹp đóng gói cẩn thận giao nhanh hộp đẹp vòng cũng thơm nữa sẽ ủng hộ shop tiếp shop trả lời tin nhắn cũng rất nhanh Còn có thẻ bảo hành đầy đủ nữa Mọi người nên mua nha rất đáng tiền Thu gọn,"ship, quality, price",5,"1,2,3,4",5.0,"1,2,4",5.0,"1,2,3,4",5.0
+18,Hàng xịn đáng giá tiền,"quality, price",5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+18,"Giao lẹ nhưng do mình ko coi size, 58 mới vừa k","ship, quality",5,4,4.0,4,5.0,4,5.0
+21,"Chất lượng tốt, đẹp như mô tả",quality,5,2,5.0,2,5.0,2,5.0
+11,giá này mắc gấp đôi của nhà bán khác,price,3,3,1.0,3,1.0,3,1.0
+21,"Túi vừa khít laptop Asus gaming của mình luôn. Chống ổn nhưng hạn chế để rớt. Tiki gói hàng kỹ quá, ngồi bóc mỏi tay =)",quality,5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+10,áo co giãn tốt,quality,5,2,5.0,2,5.0,2,5.0
+14,chất lượng tốt giao hàng nhang,"ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+19,ngon lắm. giá hoẹp lý nữa,price,5,2,5.0,"2,3",5.0,2,5.0
+3,"mình nghĩ nên xem lại khâu đóng gói , hộp bị móp nhiều","ship, quality",4,4,2.0,4,1.0,4,1.0
+23,sp đẹp như hình,quality,4,2,5.0,2,5.0,2,5.0
+16,"Form giày không giống các đợt trước, cũng size 39 mà bề ngang bị nhỏ so với bàn chân",quality,2,2,5.0,2,2.0,2,2.0
+11,"mua lần 2, sản phẩm ưng nhé, giá phù hợp. ưng nhất tiki giao siêu nhanh mà phí ship cực rẻ, vẫn luôn ủng hộ mua hàng trên tiki","ship, price",5,"2,3,4",5.0,"2,3,4",5.0,"2,3,4",5.0
+21,Túi đẹp hơn mình tưởng mỗi dặt 14inch lại gửi 15inch hơi buồn chút xíu,quality,5,2,3.0,2,4.0,2,4.0
+7,"xe chính hãng, nhân viên tư vấn tận tình, có điều chi nhánh DT6 chỗ cộng hoà công an hay đứng rình, ai mua xe chạy về nhớ cẩn thận","quality, cskh",5,"1,2",5.0,"1,2",5.0,"1,2",5.0
+10,"Băng chắc chắn, nên mang giày rộng hơn nữa size đến 1 size khi mang băng",quality,5,2,5.0,2,5.0,2,5.0
+5,"Tuy chưa dùng, mới chỉ * nhưng rất hài lòng.Xứng đáng hàng chất lượng. Giao hàng sau khi đặt vài giờ,hàng đóng gói cẩn thận.Rất cảm ơn cho hàng và Shop 5*","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+4,"chán, hôm thì nghe đc 1 bên, hôm thì 2 bên nhưng bên kia nhỏ xíu. Mới xài đc ngày thứ 2 mà đã vậy, giờ mới rảnh để lên rate :)",quality,2,2,1.0,2,1.0,2,1.0
+18,"Tròng kính khá nhỏ, có một vài đốm trên tròng kính lau chùi không ra, có lẽ là bám ở lớp giữa, thank shop cung cấp sản phẩm đẹp, mong shop sẽ đem nhiều sản phẩm chất lượng hơn đến với người dùng!",quality,4,2,4.0,2,4.0,2,4.0
+19,"Giá cả hợp lý, đóng gói kỹ, sạch","ship, price",5,"2,3,4",5.0,"2,3,4",5.0,"2,3,4",5.0
+6,"tiki gói hàng đẹp,giao hàng nhanh, chất lượng cũng tạm ok.?","ship, quality",4,"2,4",4.0,"2,4",4.0,"2,4",4.0
+14,"Hơi nhỏ so với size , chất lượng tốt",quality,5,2,5.0,2,5.0,2,5.0
+14,"Da sờ mềm. Cảm giác rất thích . Hàng đúng mẫu, nhìn chắc chắn. Giao hàng nhanh . Sử dụng 1 thời gian sẽ đáng giá thêm","ship, quality, price",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+25,"Mua tiki thích thật, giao nhanh như gió :)) sản phẩm hữu cơ xịn xò. Tay mình dị ứng nhạy cảm lắm nên cần những sản phẩm như này.","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+22,"Hỗ trợ nhanh chóng, rất tốt","quality, cskh",5,1,5.0,1,5.0,1,5.0
+15,Rất đẹp và chắc chân,quality,5,2,5.0,2,5.0,2,5.0
+1,nhận hàng đủ,ship,5,4,5.0,4,5.0,4,5.0
+18,Rất nhỏ. Xài cho móng tay thì đc. Hoa văn cũng bình thường.,quality,3,2,4.0,2,3.0,2,3.0
+17,đế ok tốt bền,quality,5,2,5.0,2,5.0,2,5.0
+24,sản phẩm đúng như quảng cáo. nhỏ gọn dễ xài .!,quality,5,2,5.0,2,5.0,2,5.0
+18,"Đeo thoải mái, chất lượng tốt",quality,5,2,5.0,2,5.0,2,5.0
+4,"Âm thanh tốt, sử dụng thấy ok nha, hình ảnh nhận asa nhưng vẫn có sợi dây ngay cái tô hehe",quality,5,2,5.0,2,5.0,2,5.0
+7,"xe đẹp, giao xe nhanh","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+5,"Ok ạ, đóng gói kĩ càng",ship,5,4,5.0,4,5.0,4,5.0
+17,"Giao hàng nhanh hơn dự kiến . Đã sử dụng nhận thấy chất lượng tốt , giá rẻ","ship, quality, price",5,"2,3,4",5.0,"2,3,4",5.0,"2,3,4",5.0
+0,"Chất lượng giấy tốt, nội dung thì mới đọc chưa đánh giá được. 5 sao cho giao hàng nhanh và sự tận tâm của shop. Mình rất ấn tượng với thư ngỏ và lời cảm ơn của các bạn. Xin cảm ơn!","ship, quality, price",5,"1,2,4",5.0,"1,2,4",5.0,"1,2,4",5.0
+21,Shop giao sai nhưng mà đúng màu nên bỏ qua. Chất lượng tạm ổn.,"ship, quality",5,"2,4",5.0,"2,4",3.0,"2,4",3.0
+0,giao hàng nhanh sách đóng gói kĩ càng thấy nội dung rất hay mọi người nên mua đọc thử,"ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+6,Dịch vụ của Tiki không có gì để phàn nàn cả. Giấy thấm dầu loại này mỏng và không thấm được nhiều dầu cho lắm. Thấy rẻ với lại nhiều đánh giá tốt nên mua về dùng thử nhưng thấy cũng bình thường chứ không tốt như mọi người nói. Thu gọn,"quality, price, cskh",3,"1,2,3",3.0,"2,3,4",3.0,"1,2,3",3.0
+18,"Tiki giao hàng nhanh, sản phẩm dễ sử dụng. Miếng dán lên màu đẹp, và bền nữa","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+2,"Máy không có gì để chê , shop tư vấn nhiệt tình và luôn hỗ trợ người mua",cskh,5,2,5.0,"1,2",5.0,2,5.0
+16,Giầu giống hình mang cũng OK,quality,3,2,5.0,2,5.0,2,5.0
+13,"USB SanDisk CZ600 - USB 3.0 rất gọn đẹp, chắc chắn và đọc chép rất nhanh.",quality,5,2,5.0,2,5.0,2,5.0
+17,hàng giao đúng,ship,5,4,5.0,4,5.0,4,5.0
+13,"Shop hỗ trợ nhiệt tình, ups có vấn đề shop đổi hẵn cho sản phẩm khác, tuyệt vời.",cskh,5,1,5.0,1,5.0,1,5.0
+2,Máy đẹp.,quality,5,2,5.0,2,5.0,2,5.0
+10,"Dùng OK nhé, hài lòng!",quality,5,2,5.0,2,5.0,2,5.0
+0,"giải mã tâm lý khá tốt, áp dụng được",quality,5,2,5.0,2,5.0,2,5.0
+18,"Chuột Logitech ABC là phiên bản nâng cấp của Logitech DEF, sở hữu công nghệ độc quyền XYZ giúp cho các game thủ thao tác chính xác tới từng pixel.",quality,5,2,5.0,2,5.0,2,5.0
+8,Chất liệu đep giao hàng nhanh nhẹn,ship,5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+14,nhận được hàng rồi giống như hình còn chất lượng chưa biết để thời gian sử dụng mới biết như vẫn cho nắm sao,quality,5,4,5.0,4,5.0,4,5.0
+25,Tốt sẽ giới thiệu dùng lại,quality,5,2,5.0,2,5.0,2,5.0
+9,"Thái độ người giao hàng dễ thương, hàng đúng như bài đăng.","ship, quality, cskh",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+2,Máy rất tốt. Chạy mượt. Màn hình ổn trong tầm giá.,"quality, price",5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+16,"Giày đẹp, chất rất ok.",quality,5,2,5.0,2,5.0,2,5.0
+16,"Hàng đẹp, chắc chắn Hài lòng",quality,5,2,5.0,2,5.0,2,5.0
+16,"Giày đẹp, da mềm, êm chân",quality,5,2,5.0,2,5.0,2,5.0
+11,"Đã nhận . màu không giống ảnh nhưng rất đẹp, giao hàng 2h siêu nhanh","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+22,"Sản phẩm tuyệt vời, dễ sử dụng lại đơn giản",quality,5,2,5.0,2,5.0,2,5.0
+19,"Sp thì OK, đong gói cẩn thận, giao hàng không đung thời gian, nếu đặt độ tin cậy chắc nhịn ăn, cũng may mua dự phòng","ship, quality",4,"2,4",4.0,"2,4",5.0,"2,4",5.0
+16,"Giày đi êm, chắc chắn, đây là lần thứ 2 mình mua rồi",quality,5,2,5.0,2,5.0,2,5.0
+5,Ưng cái bụng. Chọn mua đồ điện tử ở Tiki. Giá rẻ yên tâm 808k tặng thớt,price,5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+5,"Dễ tự lắp, dễ sử dụng, đóng gói tốt.","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+14,Shop giao hàng sớm. Sp như mô tả. Giá như tôi mạnh dạn chọn số 43 thì sẽ vừa vặn và đẹp hơn!,"ship, quality, price",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+4,Cũng ok,quality,4,2,5.0,2,4.0,2,4.0
+6,"giao hàng nhanh, giấy thấm dầu tốt nhưng hơi mỏng. Nhìn chung sử dụng ok","ship, quality",5,"2,4",4.0,"2,4",4.0,"2,4",4.0
+2,"Shop giao nhanh. Máy ko bị hư hỏng gì, mới nguyên seal. Hình ảnh rõ nét, chữ ok. Vì ko có ánh sáng xanh nên đọc lâu ko bị mỏi mắt như dthoai. Đem theo tiện, nhẹ. Highly recommend","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+13,"Màn hình đang sử dụng thì tự tắt, rồi tự mở lại, tình trạng này xảy ra rất nhiều lần, nhờ shop hỗ trợ, mình sẽ gửi video cho xem, đang cảm thấy có vẻ màn bị yếu","quality, cskh",5,"1,2",3.0,2,1.0,"1,2",1.0
+8,"chất vải đẹp xuất sắc ,sẽ ủng hộ shop tiếp ạ",quality,5,2,5.0,2,5.0,2,5.0
+0,"Giao đủ, sách mới","ship, quality",5,"2,4",5.0,2,5.0,"2,4",5.0
+12,"Sách be bé xinh xinh, giao quốc tế mà cũng lẹ. Sách nội dung hayy","ship, quality",5,2,5.0,"2,4",5.0,2,5.0
+9,Thùng 48 Hộp Sữa Nestlé MILO Nước chất lượng tốt.đáng mua.,quality,4,"2,3",5.0,2,5.0,"2,3",5.0
+12,"Sách giao nhanh bọc cẩn thận, mình đã đọc Ebook rồi và các book reviewer đều cho cuốn này vào danh sách must read nên hãy mua đọc ngay k cần suy nghĩ nha",ship,5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+25,Sản phẩm dùng ok. Kg bị ăn tay,quality,5,2,5.0,2,5.0,2,5.0
+7,Shop hỗ trợ nhiệt tình,cskh,5,1,5.0,1,5.0,1,5.0
+18,"Đeo mát mắt, gọng khá chắc chắn",quality,5,2,5.0,2,5.0,2,5.0
+21,sp như hình. hài lòng.,quality,5,2,5.0,2,5.0,2,5.0
+11,tốt giao hang nha?! /rat OK!? ok!,"ship, quality",5,4,5.0,"2,4",5.0,4,5.0
+4,"Dùng ổn ,hơi ngứa tai",quality,4,2,4.0,2,5.0,2,5.0
+6,"Sản phẩm thấm dầu tốt, mình còn được tặng mã giảm 20k ngay đợt đang giảm nữa nên còn 6k, quá ok luôn",quality,5,2,5.0,2,5.0,2,5.0
+18,"giao hàng nhanh, chất lượng chưa dùng nên chưa biết","ship, quality",5,4,5.0,4,5.0,4,5.0
+13,"ok nhìn được nhiều gốc cạnh. vẫn thấy rõ , giao hàng nhanh",ship,5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+13,Giao hàng cực nhanh. cảm ơn shop!,ship,5,4,5.0,4,5.0,4,5.0
+0,Sách thì chưa đọc nhưng tình trạng đóng gói bên Tiki dạo này tệ thật sự,"ship, quality",3,4,1.0,4,1.0,4,1.0
+2,"Máy mới, giao hàng nhanh, chu đáo và rất cẩn thận. Mua đồ điện tử mắc tiền mình đều ưu tiên Tiki. Hy vọng sẽ ổn và dùng được lâu","ship, quality, price",5,"1,2,4",5.0,"1,2,4",5.0,"1,2,4",5.0
+11,"Vải đẹp, chất đẹp như hình, cho 5sao",quality,5,2,5.0,2,5.0,2,5.0
+15,Chắc chắn. Ok,quality,5,2,5.0,2,5.0,2,5.0
+15,"Giá treo cứng cáp chắc chắn, thiết kế thông minh có thể xếp gọn và xoay trái phải đều được.","quality, price",5,2,5.0,2,5.0,2,5.0
+0,bị cũ với móc méo nhiều lại không có bọc nên trông cũ kinh khủng mình là khách mới nhưng mà chất lượng thế này thì các bạn nên cân nhắc trước khi mua nhé,quality,1,2,1.0,2,1.0,2,1.0
+2,"Cảm ứng tạm được, đèn vàng đọc đêm đỡ mỏi mắt, mình thích màn hình to nên thích bản 5 này hơn 4. Cover đi kèm đẹp",quality,5,2,5.0,2,5.0,2,5.0
+25,"giao nhanh, dong goi ki, chua dung nen chua biet ro hieu qua.Gia thanh hop ly.",ship,5,"3,4",5.0,"3,4",5.0,"3,4",5.0
+20,Đã từng mua. Shop vẫn đỉnh như lúc đầu. Cảm ơn shop nhiều lắm,quality,5,2,5.0,2,5.0,2,5.0
+0,Một cuốn sách rất hay về cách não bộ hoạt động để học tập hiệu quả hơn!!,quality,5,2,5.0,2,5.0,2,5.0
+13,"Màn rất đẹp, hợp giá tiền nhưng thiết kế hơi xấu, nhất là phần chân đế.","quality, price",5,2,3.0,2,4.0,2,4.0
+18,Tiền ship gâp 3 lan tiền sp.,"ship, price",1,4,1.0,4,1.0,4,1.0
+25,"Sp sử dụng tốt, phù hợp gia đinh Tiki giao hàng nhanh, chèn lót cẩn thận, sẽ ủng hộ Tiki thêm","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+18,"mẫu mã đẹp, giao đúng dự kiến, ? ủa hàng này của trung quốc à!?!","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+13,"Shop giao hàng nhanh chóng, xuất hd vat ngay sau khi nhận hàng, hàng thì phải dùng thử mới đánh giá được nhưng cơ bản là hài lòng","ship, quality, price",5,4,5.0,4,5.0,4,5.0
+8,"Áo đẹp, vừa vặn. Mình 1m50, 42kg, sz S vừa nhé",quality,5,2,5.0,2,5.0,2,5.0
+0,"giao hàng sớm, bìa sách nhìn hơi nhạt màu, chắc do lâu. chữ in rõ.",ship,4,"2,4",4.0,"2,4",4.0,"2,4",4.0
+17,"sản phẩm tốt, giá rẻ, sẽ ủng hộ tiếp","quality, price",5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+10,"Cố định tốt, đọ dính cao và dễ điều chỉnh",quality,5,2,5.0,2,5.0,2,5.0
+2,"Máy gọn nhẹ dễ thao tác, có điều hơi lag không biết các máy khác có vậy không hay là do mình sử dụng điện thoại quen.",quality,4,2,4.0,2,4.0,2,4.0
+8,"Chất đẹp, mát, mặc vừa vặn",quality,5,2,5.0,2,5.0,2,5.0
+2,"- Nhà bán giao hàng nhanh chóng, Từ hà nội đến TP.HCM chỉ mất thời gian 3 ngày. -Sản phẩm đúng như quảng cáo . Hàng mới.","ship, quality",5,"2,4",5.0,4,5.0,"2,4",5.0
+6,"giấy thấm cũng xài được, không ưng bằng mấy loại khác",quality,1,2,3.0,2,3.0,2,3.0
+9,hàng tốt ạ. thank shop nhé.,quality,5,2,5.0,2,5.0,2,5.0
+25,"Giao nhanh, đóng gói kỹ, sản phẩm giặt không có bọt",ship,4,"2,4",3.0,"2,4",4.0,"2,4",4.0
+6,"Sp chính hãng, giao hàng nhanh, đóng gói cẩn thận. Great!!",ship,5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+20,"Sản phẩm tạm ổn,còn về bền hay ko thì phải chờ tg.",quality,4,2,4.0,2,4.0,2,4.0
+14,Nhìn ok đẹp đi êm,quality,4,2,5.0,2,5.0,2,5.0
+7,"Đóng gói quá không đạt yêu cầu, chưa mở ra đã thấy sản phẩm bị rách. Tôi chọn sản phẩm này dù giá cao hơn các sản phẩm khác cùng loại, vì hy vọng tiền nào của đó, nhưng quá thất vọng. Tôi đề nghị Tiki tiến hành trả hoặc đổi sản phẩm đạt chất lượng. Thu gọn","ship, quality, price",1,"3,4",1.0,"2,3,4",1.0,"3,4",1.0
+20,"Sản phẩm đúng nhu cầu, giao hàng nhanh",ship,5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+13,"màn 4k bao đẹp, gắn với giá đỡ màn hình màu trắng nữa là đúng bài, hàng nguyên seal chính hãng, k gì để chê","quality, price",5,2,5.0,2,5.0,2,5.0
+25,Giá hơi cao,price,4,3,3.0,3,2.0,3,2.0
+21,"Ổn với chất lượng, bảo vệ vali đáng mua",quality,4,2,5.0,2,5.0,2,5.0
+3,"giao hàng nhanh, đóng gói kỹ .",ship,4,4,5.0,4,5.0,4,5.0
+13,"Sản phẩm sử dụng tầm 20p thì rất nóng, dễ hư hỏng quá",quality,3,2,2.0,2,1.0,2,1.0
+6,Giao hàng nhanh. Hàng chuẩn. Thanks,ship,5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+13,Dùng tốt cho máy macbook và dây chuyển đổi hdmi về usbc hỗ trợ tần số 60Hz. Có loa ngoài nữa thì perfect,"quality, cskh",5,2,4.0,2,4.0,2,4.0
+6,Giấy thấm dầu tốt,quality,5,2,5.0,2,5.0,2,5.0
+12,"+ Câu chuyện về cuộc đời của đại minh tinh Evelyn Hugo, 7 cuộc hôn nhân của bà và người mà bà thực sự yêu + Cốt truyện hay, xây dựng tình huống lôi cuốn, bất ngờ + Xây dựng các nhân vật đều có nhân cách không hoàn hảo, mỗi nhân vật đều có những điểm xấu riêng, thậm chí có phần lệch lạc so với chuẩn mực xã hội + Lời văn và từ vựng tiếng Anh đơn giản, sử dụng nhiều idiom, dễ đọc Đánh giá: 9.25-/10 Thu gọn","quality, price",5,2,5.0,2,5.0,2,5.0
+7,"(*) Đánh giá không tính điểm Trong đơn hàng 209235910 tôi đặt 02 chai, tôi đã thanh toán đủ cho người giao hàng. Khi mở hộp đựng ra chỉ có 01 chai?! Đề nghị TIKI giải quyết!","ship, price",1,"1,4",1.0,4,1.0,"1,4",1.0
+5,Rất hài lòng với sản phẩm nhận được. Săn sale giá rẻ lại được tặng quà,"quality, price",5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+13,Màu sắc hiển thị đẹp. Sắc nét,quality,5,2,5.0,2,5.0,2,5.0
+14,"Giày xấu, không đúng như mô tả",quality,1,2,1.0,2,1.0,2,1.0
+20,"Giao đủ hàng, vừa tay nên rất ưng ý, cảm thấy thích nên cho shop 5 sao nhé",ship,5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+13,Hàng chất lượng tốt,quality,5,2,5.0,"1,2,3,4",5.0,2,5.0
+4,"Vận chuyển nhanh , loa đẹp , bật lên hiện ngay trên điện thoại ngay , rất nhanh . Nhưng , Mình không thích cái nó không có Type-C nó là chấu sạc của ngày xưa ý , không đc cái đó thôi , nhưng mà giá rẻ. Xem thêm","ship, quality, price",5,"2,3,4",4.0,"2,3,4",4.0,"2,3,4",4.0
+15,"Cứng cáp, nặng hơn cả tivi. Đầy đủ phụ kiện, dễ thiết kế pass vừa tivi. Tắc kê 7cm yên tâm không thủng tường 10cm. Nhược điểm: góc nghiêng lên xuống quá ít",quality,4,2,4.0,2,4.0,2,4.0
+3,giao hàng nhanh sẽ ủng hộ dài dài. sảm phẩm chất lượng cảm ơn shop,"ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+17,"Sản phẩm tốt, đóng gói cẩn thận. Ủng hộ shop sẽ mua tiếp lần sau","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+4,"Sản phẩm tốt. Có điều nút âm lượng phải bấm hai bên nút mới được, bấm chính giữa không được. Nhưng k sao đâu mn ạ. Cái này nghe đc FM nữa nha.",quality,4,2,4.0,2,4.0,2,4.0
+15,"Hàng rất chắc chắn, thiết kế rất tiện lợi.",quality,5,2,5.0,2,5.0,2,5.0
+16,"Giày da bò màu vàng đi mềm êm, giá ok. Thank you!",price,5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+20,Trầm thơm. Vòng nhẹ và đẹp. Mang vào cảm giác rất an lành,"quality, price",5,2,5.0,2,5.0,2,5.0
+7,nhân viên phục vụ tận tình giao xe cẩn thận. rất đáng tiền mua trên tiki,"ship, price, cskh",5,"1,2,4",5.0,"1,2,3,4",5.0,"1,2,4",5.0
+19,Bình thường,quality,4,"1,2,3,4",3.0,"1,2,3,4",3.0,"1,2,3,4",3.0
+14,"Dép trông đẹp, chắc chắn, quai rộng vừa phải. Đây là đôi thứ 3 tôi mua giày dép từ Biggen. Hi vọng bền.",quality,5,2,5.0,2,5.0,2,5.0
+14,"hàng đúng như quảng cáo, nhẹ và đẹp, shop tặng thêm dây cột tóc dễ thương.",quality,5,2,5.0,"1,2",5.0,2,5.0
+16,giày đẹp nhưng mình mặc hơi chật,quality,5,2,4.0,2,5.0,2,5.0
+0,"Mua sách vì bìa đẹp mà nhận lại bị móp nhẹ góc. Tiki đóng gói hơi thiếu cẩn thận đó. 5 quyển thì 2 qu bị móp vs rách gáy sách Nói về nội dung thì sách đọc rất cuốn nha. Đây là cuốn đầu tiên mình đọc của tác giả này. Trước có đọc qua review thì tưởng kiểu trinh thám ly kì giật gân nhg quyển này đọc rất nhẹ nhàng, có yếu tố kì bí nhg cách viết của tác giả gần gũi, mạch truyện đan xen hiện tại quá khứ và tương lai, đi từ bất ngờ này tới bất ngờ khác. Thú vị lắm. Đúg như cái tên sách, điều kì diệu Thu gọn","ship, quality",4,"2,4",5.0,"2,4",4.0,"2,4",4.0
+15,Đẹp và chắc chắc và linh hoạt khi xoay chuỷen hướng theo ý thích,quality,5,2,5.0,2,5.0,2,5.0
+2,"Đóng gói cẩn thận, sạc siêu nhanh",ship,5,4,5.0,"2,4",5.0,4,5.0
+5,"giá phù hợp, tốt","quality, price",4,3,5.0,"1,2,3,4",5.0,3,5.0
+9,"Giao nhanh, thùng không móp méo, hộp cũng vậy. Thoải mái nha anh em.","ship, quality",5,4,5.0,4,5.0,4,5.0
+11,"áo mỏng thoáng khí, giao rất nhanh,chất lượng khá tốt","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+2,"Máy ổn trong tầm giá, nguyên seal, bao gói kỹ",price,5,"2,3,4",5.0,"2,3,4",5.0,"2,3,4",5.0
+4,Hàng đẹp cầm rất chắc tay. Trên cả sự mong đợi,quality,5,2,5.0,2,5.0,2,5.0
+14,"ngỡ 41 một cỡ ai ngờ phụ thân mang vào hơi rộng , nhưng cũg cảm on shop ?",quality,5,2,4.0,2,3.0,2,3.0
+16,shop giao hàng như hình. Mang thử êm chân.,"ship, quality",5,2,5.0,"2,4",5.0,2,5.0
+14,"shop giao đúng kích thước, giày đẹp giống hình, gói chắc","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+10,"Tuyệt vời, đơn giản và ngắn gọn, mình chưa chụp hình, sử dụng tốt giống như hình",quality,5,2,5.0,2,5.0,2,5.0
+20,Hàng chất lượng. Đúng sản phẩm,quality,5,2,5.0,2,5.0,2,5.0
+11,sp tốt áo dày mà chữ in như thế hum bt giặt có bị bay chữ ko nữa,quality,5,2,4.0,2,4.0,2,4.0
+5,"Giáo nhanh, đồ nấu 1 lúc là nhừ",price,5,4,5.0,"2,4",5.0,4,5.0
+10,"Vải mát, mặc thoải mái, form đẹp Shop tư vấn nhiệt tình","quality, cskh",5,"1,2",5.0,"1,2",5.0,"1,2",5.0
+21,áo chất lượng sản phẩm rất tốt nhà bán hàng nên xản xuất và cho ra đời nhiều sản phẩm chất lượng như vậy.tôi và bạn bè sd rất tốt sẽ giới thiệu thêm.,quality,5,2,5.0,2,5.0,2,5.0
+21,TỆ HAI. GIAO SAI HÀNG . GIAO TÚI CHỐNG SỐC RẺ TIỀN. QUÁ TỆ. SHOP KHUYẾN MÃI ẢO CÂU SỐ LƯỢNG ĐƠN .,"ship, price",1,"2,4",1.0,"1,2,4",1.0,"2,4",1.0
+2,"Dùng được 3 ngày, hài lòng với Kindle phiên bản mới",quality,5,2,5.0,2,5.0,2,5.0
+17,Giá quá ok..ok nhất tiki,price,5,3,5.0,3,5.0,3,5.0
+12,Rất hay & ý nghĩa,quality,5,2,5.0,2,5.0,2,5.0
+7,Dịch vụ ok nhe.,cskh,5,1,5.0,1,5.0,1,5.0
+19,Shop giao nhanh nhân viên tư vấn nhiệt tình. Sẽ ủng hộ tiếp tục khi dùng gas hết.,"ship, quality, cskh",5,"1,4",5.0,"1,4",5.0,"1,4",5.0
+14,dép đẹp giao nhanh đúng size,"ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+5,"Lần đầu mua đồ trên tiki thấy rất okk, hàng giao về không móp méo đóng gói rất chất lượng, sản phẩm cắm điện thử hoạt động bình thường, mai thử nấu đồ ăn coi ra sao, mong là sản phẩm bền bỉ. Sẽ ủng hộ tiki lâu dài Thu gọn","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+23,Nhận hàng đúng mẫu mã. đúng sản phẩm.Túi vừa để đi làm ko quá to cũng ko quá nhỏ nói chung là cực kỳ hài lòng,"ship, quality",5,2,5.0,2,5.0,2,5.0
+21,sản phẩm okie như hình. tuy nhiên k có dây đeo cặp,quality,4,2,4.0,2,4.0,2,4.0
+5,"Nồi chính hãng, rộng, dễ vệ sinh, sạch sẽ đẹp, 3 người cũng đủ dùng",quality,5,2,5.0,2,5.0,2,5.0
+17,"Sản phẩm xài tốt, nhanh lưu hình vào máy tính từ camera",quality,5,2,5.0,2,5.0,2,5.0
+14,"Sp đúng như hình quảng cáo,nhìn chung rất hài lòng tuy nhiên cần trải nghiệm mới đánh giá thực chất được","quality, price",5,2,4.0,2,4.0,2,4.0
+13,mọi thứ đều tốt trên mong đợi,quality,5,"1,2,3,4,5",5.0,"1,2,3,4",5.0,"1,2,3,4,5",5.0
+15,"Đã nhận hàng, nhìn đẹp, chưa lắp đặt lên chưa có đánh giá về chất lương, giao hàng đúng hẹn","ship, quality, price",4,"2,4",5.0,"2,4",4.0,"2,4",4.0
+4,Đài nghe oki như hình giao hàng nhanh,"ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+20,"chắc chắn, tốy",quality,5,"1,2,3,4",5.0,"1,2,3,4",5.0,"1,2,3,4",5.0
+4,Âm thanh ở mức ổn và tốt nếu sử dụng tại vị trí không quá ồn Giao hàng trước hạn và đóng gói cẩn thận Trước mình cũng dùng tai nghe loại này nên mỉnh chọn mua lại cùng loại,"ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+5,Nồi nấu tốt. Rất đáng mua,quality,5,2,5.0,2,5.0,2,5.0
+9,"Hương vị mát dịu, thơm ngậy và giàu dinh dưỡng.",quality,5,2,5.0,2,5.0,2,5.0
+18,"e mua 3 mẫu E F và HH, nhận dc đúng hàng hình xăm rất đẹp luôn, nên mua nhé mọi người",quality,5,2,5.0,2,5.0,2,5.0
+4,"Chuột êm mượt, nhạy rất rốt. Mua lần 2 rồi. Giao hàng nhanh",ship,5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+13,"Tốt mình mua 3 cái rồi , 2 cái trc do mất :((, nói chung hàng chất lg , tốc độ đọc ghi nhanh",quality,5,2,5.0,2,5.0,2,5.0
+11,"vải đẹp, co giãn tốt, tiếp tục ủng hộ shop",quality,5,2,5.0,2,5.0,2,5.0
+11,chất liệu tốt giao hàng nhanh,"ship, quality",4,"2,4",5.0,"2,4",5.0,"2,4",5.0
+25,xài rất hao. ít bọt. mẹ bảo rửa bực mình. nhưng rẻ với hàng hữu cơ ko thể so với hóa chất đc,"quality, price",5,"2,3",3.0,"2,3",2.0,"2,3",2.0
+4,"Hàng giao rất nhanh, mới mua hôm qua nay đã giao, chất lượng âm thanh ổn, to nghe rất sướng. Kết nối đt mạnh, nhưng mà kết nối với máy tính dù kể sát bên vẫn chập chờn. nhìn loa khá chắc chắn. ảnh minh họa thôi Thu gọn","ship, quality",4,"2,4",5.0,"2,4",4.0,"2,4",4.0
+6,sp dùng rất tốt giao hàng nhanh,ship,5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+7,"Chất liệu sản phẩm thì ok, nhưng các bạn lưu ý xem kỹ xe của mình có phù hợp hay không thì hẵng mua. Xe của mình thì khá nhỏ, ghế cũng đã có đường ôm rồi nên nhét thêm cái tựa lưng thì rất chật chội và khó chịu. Thu gọn",quality,4,2,4.0,2,5.0,2,5.0
+13,"vừa mua 1 cái, hiện tại thì dùng tốt, tốc độ khá nhanh",quality,5,2,5.0,2,5.0,2,5.0
+9,giao hàng nhanh. thank,ship,5,4,5.0,4,5.0,4,5.0
+20,"đóng gói rất kĩ lưỡng, rất hài lòng về vòng tay",ship,5,4,5.0,"2,4",5.0,4,5.0
+21,Hàng phù hợp với giá tiền; màu xám khá đẹp; sẽ ủng hôn,"quality, price",5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+21,"Túi đẹp, chất liệu tốt, có túi phụ mặt trước và cả mặt sau",quality,5,2,5.0,2,5.0,2,5.0
+16,"Giày đi êm, không đau chân, thoải mái, chất liệu bền",quality,5,2,5.0,2,5.0,2,5.0
+21,"Chống sốc tốt, bền, đẹp",quality,5,2,5.0,2,5.0,2,5.0
+15,Sản phẩm tốt. Mình rất hài lòng.thanks shop,quality,5,2,5.0,2,5.0,2,5.0
+5,"Mua hàng mới mà giao hàng củ và trầy, móp rất nhiều","ship, quality",1,"2,4",1.0,"2,4",1.0,"2,4",1.0
+17,Hàng ok đúng như trên hình.,quality,5,2,5.0,2,5.0,2,5.0
+16,"Giày rất mềm, rất êm chân. chống trượt rất tốt. ^_^",quality,5,2,5.0,2,5.0,2,5.0
+8,Chất liệu và form áo rất đẹp.,quality,5,2,5.0,2,5.0,2,5.0
+13,"sản phẩm tốt, giao hàng chậm trễ","ship, quality",3,"2,4",3.0,"2,4",3.0,"2,4",3.0
+2,"Ổn, có sạc nhanh, cảm ứng mượt. Với giá này thì quá ổn.",price,5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+8,"Tiki giao hàng siêu nhanh luôn. Lịch giao là CN mà hôm nay đã nhận được hàng! Áo đẹp chất vải hơi nhám nhám nhưng mình rất thích. Đường may đẹp, chắc chắn, kiểu dáng basic. Mua onl nên hơi run xíu. Nhưng hàng nhận về quá ok luôn. Còn nhận được lời cảm ơn nữa. Mọi người nên mua nhé! Thu gọn","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+5,"Hàng hãng xịn sò! 3 tốc độ, xay thịt nhuyễn giá hợp lý.","quality, price",5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+22,Phức tạp cần gì phải mua rồi đổi ra su tào lao vậy mua gì thì bấm vô gửi tới trả tiền thôi chứ có gì mà làm phức tạp,price,1,1,1.0,1,2.0,1,2.0
+16,"Dép đẹp, chắc chắn, mình chọn sz vừa như in luôn. Có bầu đi loại này cho chắc chắn",quality,5,2,5.0,2,5.0,2,5.0
+20,Nhận được sản phẩm hàng và màu sắc y hình mùi hương trầm rất thơm chúc shop buôn may bán đắt nhé tặng shop năm sao,"quality, price",5,2,5.0,2,5.0,2,5.0
+22,cách sử dụng vô cùng bất tiện sao không cho lựa chọn dùng chọn đơn giản khi làm lệnh thanh toán luôn quá vòng vèo,quality,1,2,2.0,2,2.0,2,2.0
+16,"Giày mềm mại, êm chân, đáng tiền lắm nhé! Hoa văn sáng chân nữa.",price,5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+21,Đẹp nhìn rất chất lượng,quality,5,2,5.0,2,5.0,2,5.0
+16,"giày đẹp, mà hơi nhỏ, mình chọn size lớn hơn size chân thường mang 1 size nhưng vẫn còn nhỏ. Cám ơn shop.",quality,4,2,5.0,2,3.0,2,3.0
+15,"sản phẩm giặt sạch nhưng vắt chưa khô, nhưng cũng giúp cho việc giặt sạch tránh xà phòng dính vào da tay rất ok",quality,4,2,4.0,2,4.0,2,4.0
+25,"Sản phẩm tốt, cảm giác yên tâm. Không như dùng nước rửa chén công nghiệp. Sẽ tiếp tục ủng hộ shop.","quality, price",5,2,5.0,2,5.0,2,5.0
+11,"Trước hay tìm trên taobao mua mà không biết cách mua, giờ có rồi tiện quá đi Hihi. Áo ưng lắm á shop",quality,5,2,5.0,2,5.0,2,5.0
+10,"Vải đẹp, đường may rất chất lượng, đóng gói và giao hàng nhanh. Mình rất hài lòng và sẽ ủng hộ shop.","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+24,"Tạm được, đường chỉ xài được tuần bị hở, nhưng vẫn.còn xài đc, ko ưng ý lắm",quality,4,2,5.0,2,3.0,2,3.0
+22,Sản phẩm cũng hay,quality,5,2,5.0,2,4.0,2,4.0
+4,"Chuột nhẹ êm, mình làm việc vp nên cần yên tĩnh. Có sẵn cục pin luôn. Tiki đóng gói kỹ, giao hàng nhanh :3",ship,5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+17,Không hỗ trợ người mua mà đẩy qua tiki hỗ trợ.,cskh,1,1,1.0,1,2.0,1,2.0
+20,Shop tư vấn nhiệt tình,cskh,5,1,5.0,1,5.0,1,5.0
+18,hàng tốt. đó giờ tôi mua hàng ở Tiki luôn uy tính. tôi sẽ luôn ủng hộ shop kèm vs giới thiệu và quảng bá tiki cho công ty tôi và bn bè tôi để ủng hộ Shop,quality,5,2,5.0,"1,2,3,4",5.0,2,5.0
+14,Tuy gửi nhầm size nhưng vẫn có thể đi tạm đc . Hàng ok giá cả thì phù hợp vs túi tiền .,"quality, price",5,"2,3",5.0,"2,3,4",4.0,"2,3",4.0
+12,"Giao hàng chậm, quá hạn gần 1 tuần nhưng bù lại sách đẹp, đóng gói cẩn thận, giá cả hợp lý","ship, quality, price",5,"2,3,4",4.0,"2,3,4",3.0,"2,3,4",3.0
+5,"Đẹp , dùng mát nhẹ nhàng , đánh tiền.","quality, price",5,"2,3",5.0,2,5.0,"2,3",5.0
+20,"Vòng đẹp lắm nha mn, nên thử mua đi",quality,5,2,5.0,2,5.0,2,5.0
+9,"Vị thơm, rất ngon hạt gạo mềm mình ngâm trước 1 tiếng khi nấu. Ăn cảm giác no rất lâu, các bạn nên thuer nhé",price,5,2,5.0,2,5.0,2,5.0
+12,"Sách hay, dễ đọc",quality,5,2,5.0,2,5.0,2,5.0
+17,Sản phẩm ok nhưng giao hàng hơi lâu mong shop đẩy nhanh vận chuyển,"ship, quality",5,"2,4",5.0,"2,4",3.0,"2,4",3.0
+6,"Nhà bán đóng gói cẩn thận, chu đáo, sản phẩm okie",ship,5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+13,"Có nút tắt âm báo đau đầu là tốt rồi. Giá hợp lý, có thể xách lên xe đi picnic dùng ấm đun nước dưới 600W.","quality, price",5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+5,áp suất Elmich PCE-1805 dung tích 2.5L - Hàng Chính Hãng,quality,5,2,5.0,2,5.0,2,5.0
+16,"Chất liệu, mẫu mã như hình, giá ok, giao nhanh, đóng gói cẩn thận","ship, quality, price",5,"2,3,4",5.0,"2,3,4",5.0,"2,3,4",5.0
+7,Đóng gói đẹp chất lượng tốt giao hàng nhanh,"ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+20,"cuộn hơi nhỏ, giao hàng nhanh",ship,3,"2,4",4.0,"2,4",3.0,"2,4",3.0
+9,Đun em nó đến 5 phút mà xào vẫn thấy cứng khi ăn. Nếu có hướng dẫn sử dụng kỹ hơn thì tốt,quality,4,2,3.0,2,3.0,2,3.0
+9,"Giao hàng rất nhanh, đóng gói đẹp. Nhưng giá thì lên xuống thường xuyên.","ship, quality, price",5,"3,4",4.0,"3,4",4.0,"3,4",4.0
+4,"tai nghe nghe ổn áp, mong rằng tai nghe bền,dùng được lâu, chứ cứ 1 2 tháng lại ko nghe được thì chán :)",quality,5,2,5.0,2,4.0,2,4.0
+4,Bất ngờ rẻ mà tốt,"quality, price",5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+19,Giao hàng k đúng đặt hàng,ship,1,4,1.0,4,1.0,4,1.0
+15,"Rất hai lòng do mới mua về m chưa biết kích hoạt, đã được kiti hỗ trợ hướng dẫn kích hoạt c/n giọng nói!","quality, cskh",5,"1,2",5.0,"1,2",5.0,"1,2",5.0
+15,Sản phẩm vẫn điều khiển được nhưng hiện lên thông báo không hỗ trợ đkhien này trên tivi. Nhờ shop hỗ trợ .,"quality, cskh",4,"1,2",3.0,"1,2",3.0,"1,2",3.0
+8,"Áo đẹp, chất liệu mềm mại.",quality,5,2,5.0,2,5.0,2,5.0
+24,"Túi đẹp , i hình",quality,5,2,5.0,2,5.0,2,5.0
+18,"Chất liệu tốt, giá rẻ bất ngờ. Gọng nhẹ, mỏng, chống nắng","quality, price",5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+14,Đẹp và bền ạ,quality,5,2,5.0,2,5.0,2,5.0
+5,Tương đối ọp ẹp. Mình đã phân vân giữa con này và con bear. Nắp ko khít lắm đâu. Gioăng đế cũng lỏng lẻo,quality,3,2,3.0,2,2.0,2,2.0
+25,"(*) Đánh giá không tính điểm Đồ dõm k nên mua, sài k tốt","quality, price",1,2,1.0,2,1.0,2,1.0
+17,Sản phẩm giống như mẫu đã đăng,quality,4,2,5.0,2,5.0,2,5.0
+11,Áo đẹp chất mát,quality,5,2,5.0,2,5.0,2,5.0
+22,Dùng ok hehe,quality,5,2,5.0,2,5.0,2,5.0
+2,"Sản phẩm dùng rất ok nhé, vừa nhỏ nhẹ vừa tiện lợi",quality,5,2,5.0,2,5.0,2,5.0
+4,Chất lượng rất tốt.,quality,5,2,5.0,"1,2,3,4",5.0,2,5.0
+20,Sản phẩm như hình. Tốt.,quality,5,2,5.0,2,5.0,2,5.0
+25,Sản phẩm chất lượng. Giao hàng rất nhanh và được đóng gói rất cẩn thận.,"ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+5,Máy mạnh. Bật số 3 cũng hơi ồn. Xài ok ah,quality,5,2,5.0,2,4.0,2,4.0
+17,"SP tốt, chất lượng,",quality,5,2,5.0,2,5.0,2,5.0
+20,Hàng chất lượng.sẽ ủng hộ ạ,quality,5,2,5.0,2,5.0,2,5.0
+2,"Giao hàng nhanh, hàng tốt","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+6,giao sớm,ship,5,4,5.0,4,5.0,4,5.0
+3,giao siêu nhanh. đặt bên shoppe toàn bị hủy đơn.,ship,5,4,5.0,4,5.0,4,5.0
+11,quá đẹp em quá ưng nhà cho 5 sao lun,quality,5,4,5.0,2,5.0,4,5.0
+3,giao nhanh hạn sử dụng còn dài,ship,5,2,5.0,4,5.0,2,5.0
+9,"Gia hop ly, Hạn sử dụng mới Hàng đóng gói kỹ đẹp Hài lòng, giá hợp lý","ship, quality, price",4,"2,3,4",5.0,"2,3,4",5.0,"2,3,4",5.0
+6,sản phẩm dùng rất thích.,quality,5,2,5.0,2,5.0,2,5.0
+13,"Dùng tốt, được !",quality,5,2,5.0,2,5.0,2,5.0
+6,giao hang nhanh,ship,5,4,5.0,4,5.0,4,5.0
+0,"Mình đọc đc gần nửa quyển, mấy chục trang đầu hơi chán, về sau hay hơn. Tiếc ghê, bìa sách bị dính bẩn lau không ra:((",quality,5,"3,4",2.0,"2,4",3.0,"3,4",3.0
+2,"Tốt trong tầm giá, màn ko đẹp lắm, tốc độ ko mượt lắm, đk cái đa nhiệm cũng ok","quality, price",5,"2,3,4",3.0,"2,3",4.0,"2,3,4",4.0
+0,Giao hàng chậm,ship,5,4,2.0,4,2.0,4,2.0
+6,"giấy thấm dầu tốt, tiki đóng gói hàng cẩn thận và giao hàng cực kỳ nhanh chóng","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+5,"Sản phẩm đúng như mô tả, lòng nồi hơi mỏng, nồi cơ nên dễ thao tác, chức năng hạn chế. Giao hàng đúng hẹn","ship, quality",4,"2,4",4.0,"2,4",4.0,"2,4",4.0
+9,"* khách hàng, kêu tặng quà cho đơn hàng cao nhất, cũng ráng mua thử 1 đơn tối đã 5 thùng, lên đơn thì tự ý tách ra nhiều đơn lẻ, xong khóa tài khoản bảo khách hàng trục lợi","quality, cskh",1,1,1.0,1,1.0,1,1.0
+19,"Giao hàng nhanh, nhân viên phục vụ nhiệt tình, cân đo đầy đủ","ship, cskh",5,"1,4",5.0,"1,4",5.0,"1,4",5.0
+24,"Lớp chống thấm mỏng và dễ bị nứt tróc,không tốt",quality,2,2,2.0,2,2.0,2,2.0
+8,"Sản phẩm đẹp, giá rẻ","quality, price",5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+4,Màu rất đẹp,quality,5,2,5.0,2,5.0,2,5.0
+2,Ổn áp trong tầm giá có điều chơi liên quân ko hiểu do cảm ứng hay do game thấy lâu lâu như ko cảm ứng được nhân vật toàn đứng im ko di chuyển đc,"quality, price",5,"2,3",2.0,"2,3",4.0,"2,3",4.0
+9,"Sp tốt, giao hàng nhanh.","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+20,được 2 lần thay dây vòng.,quality,1,2,1.0,2,1.0,2,1.0
+14,nhận được hàng hơi bất ngờ vì món quà nhỏ. chúc shop luôn đắt hàng,price,5,2,5.0,"1,2",5.0,2,5.0
+21,"Hơi nhỏ so với máy 17 inch, nhìn cũng đẹp",quality,4,2,4.0,2,3.0,2,3.0
+6,"Hàng của Acnes thì okie rồi. Giá cao hơn các loại thấm dầu khác một tẹo, nhưng chất lượng giấy tốt và thấm dầu ổn. Mua của tikinow giao hàng nhanh.","ship, quality, price",5,"2,3,4",5.0,"2,3,4",5.0,"2,3,4",5.0
+21,"sản phẩm y như hình, sài tốt.",quality,5,2,5.0,2,5.0,2,5.0
+2,"Giao hàng nhanh. Máy còn nguyên seal. Có ốp da chính hãng. Lần đầu mình dùng kindle thấy tác vụ không được mượt khi dùng smartphone, thấy hơi giật giật không biết là bình thường hay máy mình có vấn đề gì ak? Thu gọn","ship, quality",4,"2,4",4.0,"2,4",4.0,"2,4",4.0
+22,Tốt lắm ạ hihi,quality,5,2,5.0,2,5.0,2,5.0
+21,"Đẹp, chống sốc",quality,5,2,5.0,2,5.0,2,5.0
+7,"mút bị ẩm mốc, rất hôi, phải lấy ra phơi mấy ngày mới xài được.",quality,3,2,3.0,2,1.0,2,1.0
+15,"Chắc chắn, đẹp… Nên mua",quality,5,2,5.0,2,5.0,2,5.0
+11,bình thường không quá tốt,quality,2,2,3.0,2,3.0,2,3.0
+14,"Shop giao hàng nhanh, đóng gói hàng cẩn thận. Hàng chuẩn Bitis chính hãng. Lần nào mua cũng có quà tặng kèm nhỏ xinh và cả thiệp cảm ơn rất cẩn thận Rất hài lòng về shop","ship, quality",5,"2,4",5.0,"1,2,4",5.0,"2,4",5.0
+15,"Khung lắp đặt dễ, chịu lực tốt, xoay chuyển dễ dàng",quality,5,2,5.0,2,5.0,2,5.0
+9,Sữa ngon giá flashsale rẻ,price,5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+7,"Dũng Tiến phục vụ ổn. Tuy nhiên các bạn đừng dán keo xe ở đây. Head hợp tác với đơn vị khác, keo mỏng mà còn bị lỗi, nhân viên dán ẩu tả, hở đầu và còn bong bóng nhiều. Nhờ xử lý, cũng k làm hết được. Ngán lắm. Thu gọn","quality, cskh",5,"1,2",4.0,"1,2",3.0,"1,2",3.0
+0,"Tiki giao sách ko kiểm kỹ, mới cầm lên đac thấy rách bìa sau. Cuốn còn lại thì shipper đại vô nhà, dọng xuống nền gãy góc sách. Tiki dạo này chất lượng đi xuống quá","ship, quality",1,"2,4",1.0,"2,4",1.0,"2,4",1.0
+9,tôi đã mua nhiều lần trên tiki. ngoài Milo.còn có mưa sữa tươi bịch Vinamilk.nói chung là bên tiki và CTY GHn hợp tác rất tốt.date mới.gói hàng cẩn thận. NV giao hàng rất nhanh. có hàng. Xem thêm,"ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+23,"Kiểu dáng, màu sắc, đường may đẹp.",quality,5,2,5.0,2,5.0,2,5.0
+16,Không rút mồ hôi như shop quảng cáo,quality,3,2,1.0,2,2.0,2,2.0
+4,"Giao hàng nhanh. Chuột êm, mượt.",ship,5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+8,"Chất đẹp, màu đẹp, xinh.",quality,5,2,5.0,2,5.0,2,5.0
+18,"Đẹp, rẻ ạ","quality, price",5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+22,"Sản phẩm tốt, tiện dụng cho quà tặng",quality,5,2,5.0,2,5.0,2,5.0
+25,Xài rất rất hao mà ko có mùi dễ chịu nào như những sản phẩm hữu cơ khác. Mà có vẻ cũng không hoàn toàn hữu cơ,quality,2,2,2.0,2,2.0,2,2.0
+7,hang giao chuẩn,ship,5,4,5.0,"2,4",5.0,4,5.0
+14,hàng rất đẹp đúng như mẫu đã đăng tôi rất hoài lòng,quality,5,2,5.0,2,5.0,2,5.0
+6,Ok! Tốt. Hàng chính hãng. Lần sau sẽ mua thêm,quality,5,2,5.0,2,5.0,2,5.0
+4,"Shop uy tín. Sản phẩm đẹp, chất lượng, phù hợp túi tiền, có bảo hành nữa chứ. Tư vấn nhiệt tình, dễ thương.Trước đó mình có đặt tai nghe giá cũng không cao, nhưng vẫn được tư vấn nhanh chóng và nhiệt tình, còn được bên shop đồng ý gửi màu khác khi mình đặt nữa (mình mua mà không để ý). Bên giao hàng thì cũng tuyệt vời, nói là 03/08 giao nhưng chưa tới tháng 8 là giao tới rồi mà còn trong tình hình khó khăn nữa. Cảm ơn shop và bên giao hàng nhiều, chúc mọi người gặp nhiều may mắn. Thu gọn","ship, quality, price, cskh",5,"1,2,3,4",5.0,"1,2,3,4",5.0,"1,2,3,4",5.0
+11,"Quần mát , mặc ở nhà khá thoải mái. Giá tốt, màu hên sui nhưng cũng khá hài lòng","quality, price",5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+7,tốt giá hợp lý,"quality, price",5,3,5.0,"1,2,3,4",5.0,3,5.0
+2,Tuyệt vời Với giá và chất lượng như vậy. Rất hài lòng.,"quality, price",5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+16,"Sản phẩm đẹp, đế đi êm, không trơn trượt, shop giao hàng rất nhanh.","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+20,"Đã nhận được vòng, rất thích và sẽ dùng thật tốt. Cám ơn shop",quality,5,2,5.0,2,5.0,2,5.0
+2,Hàng đúng như quảng cáo. Tiki trading rất uy tín. Chất lượng bộ sạc chưa thể đánh giá vì phải qua thời gian sử dụng mới dám nhận xét chất lượng.,"quality, price",4,2,5.0,2,4.0,2,4.0
+2,Xài tốt lắm á mọi người. Mình mua bản kids,quality,5,2,5.0,2,5.0,2,5.0
+7,"HEAD hỗ trợ tạo phiếu thanh toán qua tiki để khỏi mất phí quẹt thẻ ở máy Mpos. Còn được chuyển đổi trả góp. Rinh ngay AB125 đen nhám về nhà quá xá đẹp. Mua xe online quá tiện, lại rẻ. Nên mua nha mọi người Thu gọn","quality, price, cskh",5,"1,2,3",5.0,"1,2,3",5.0,"1,2,3",5.0
+5,đẹp tốt rẻ,"quality, price",5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+0,"Sách đã qua sử dụng, nhiều trang bị nhăn và bẩn, bìa sách thì xước, không có lớp giấy bọc như khi mua sách mới.",quality,1,2,1.0,2,1.0,2,1.0
+21,"cặp màu đẹp, dây kéo cứng cáp",quality,5,2,5.0,2,5.0,2,5.0
+9,sp quá chất lượng,quality,5,2,5.0,2,5.0,2,5.0
+19,ko hợp vị. ướp nhiều hương liệu quá,quality,2,2,3.0,2,2.0,2,2.0
+15,"Ok, dùng lâu phết rồi, vẫn ổn",quality,5,2,5.0,2,5.0,2,5.0
+11,"mình 80kg mặc XL rất vừa , giá rẻ tính ra chưa đến 50k 1 chiếc. Giao hàng 2h siêu nhanh, ship rẻ so với các bên khác","ship, quality, price",5,"2,3,4",5.0,"2,3,4",5.0,"2,3,4",5.0
+16,"Giày êm chân, thoải mái, shop hỗ trợ đổi mẫu khi mình đổi ý. Yêu cái cách phục của shop",cskh,5,"1,2",5.0,"1,2",5.0,"1,2",5.0
+15,"Chắc chắn. Giấy hd lắp ráp okay. Cứng cáp lắm. Khớp ổn áp, di chuyển tv thoải mái",quality,5,2,5.0,2,5.0,2,5.0
+20,"Mình mua hàng tại shop 4, 5 lân, lân nào cũng ưng ý cám ơn shop nhiêu, mình sẽ ủng hộ shop dài dài",quality,5,2,5.0,2,5.0,2,5.0
+5,"Nồi đẹp, nấu ok mà mỗi tội bé quá",quality,4,2,4.0,2,4.0,2,4.0
+2,Nhận hàng nguyên seal và nhanh,ship,5,2,5.0,"2,4",5.0,2,5.0
+18,Tất đẹp lắm nha nó có rất nhiều màu dễ lựa chọn,quality,5,2,5.0,2,5.0,2,5.0
+5,"Xài ok lắm, giá rẻ",price,5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+25,Mùi hoá chất nặng. Phải bật chế độ rửa lại 4-5 lần mới hết mùi và bọt.,quality,3,2,2.0,2,2.0,2,2.0
+21,"Hàng đẹp , giao nhanh. Thanks shop hỗ trợ, thanks Tiki và đội ngũ shipper dễ thương","ship, quality, cskh",5,"1,2,4",5.0,"2,4",5.0,"1,2,4",5.0
+3,"Đóng gói kĩ, giao hàng nhanh",ship,5,4,5.0,4,5.0,4,5.0
+0,Cực kì thích cuốn sách này. Rất đáng để sở hữu. Giao hàng nhanh lắm ạ,ship,5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+6,giao hàng trc dự kiến. Và anh shipper cực kì thân thiện. anh ấy gọi cho mk 5 cuoc mk k nghe đến khi mk gọi lại bảo giao tới thì anh ấy đồng ý. Rất hài lòng về đội ngũ shipper của Tiki. Cho Tiki và anh shipper dễ thương 5 sao? Thu gọn,"ship, quality",5,"2,4",5.0,4,5.0,"2,4",5.0
+2,"Máy dùng rất thích. Cảm giác cầm khá đầm tay (nếu đọc lâu thì sẽ hơi mỏi một tẹo). Đây là bản Kids+ nên có giá mềm hơn bản thường một tẹo, tuy nhiên mình không thấy có bất kì vấn đề gì ở bản này cả. Amazon có offer người dùng 1 năm sử dụng Kids+ nhưng mà hình như ở VN không hỗ trợ, mình loay hoay mãi mà vẫn không activate được. Máy đọc các sách thuần chữ, ít hình ảnh khá mượt. Đặc biệt các đuôi EPUB, AZW, MOBI đúng với định dạng hỗ trợ của máy. Tuy nhiên, nếu phải xử lý các file có dung lượng cao, nhiều hình ảnh, máy có hơi lag và phản hồi chậm hơn. Nhìn chung, đây là một sản phẩm tương đối đáng tiền. Thích hợp cho những bạn không muốn mang vác nhiều và sợ làm quăn sách. Đồng thời với những bạn thích đọc sách nước ngoài nhưng vì budget có hạn nên không mua được sách giấy. Sách Việt thì mình thấy đa phần sẽ chỉ có định dạng PDF, đọc không được thích cho lắm. TiKi giao đơn rất nhanh, chỉn chu. Shipper hỗ trợ nhiệt tình và khá thân thiện. Thu gọn","ship, quality, price, cskh",5,"1,2,3,4",5.0,"2,3,4",4.0,"1,2,3,4",4.0
+20,"Mình nhận được hàng lâu rồi. giờ mới đánh giá. Về cảm quan vòng đẹp chuẩn trầm tốc. Đeo lên tay rất tôn màu da, sau 1 thời gian thấy hương thơm dịu nhẹ nhàng. Vân gỗ đẹp, vòng nhẹ không nặng tay. Shop nhiệt tình và có bảo hành nên yên tâm. Thu gọn","quality, price, cskh",5,2,5.0,"1,2",5.0,2,5.0
+15,Giao đúng hẹn! Tốt,"ship, quality",5,"2,4",5.0,4,5.0,"2,4",5.0
+7,Sản phẩm dịch vụ quá tuyệt vời,cskh,4,"1,2",5.0,"1,2",5.0,"1,2",5.0
+7,"xe đẹp , dịch vụ tốt","quality, cskh",5,"1,2",5.0,"1,2",5.0,"1,2",5.0
+2,"Máy đuợc đóng gói cẩn thận, nguyên hộp, đầy đủ phụ kiện. Chất lượng máy rất tốt","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+13,giao hàng nhanh. màn hình bị khuyết điểm ko có loa ra,ship,5,"2,4",3.0,"2,4",3.0,"2,4",3.0
+11,"Chất liệu áo bibhf thường, mặc không toits lawms",quality,3,2,3.0,2,2.0,2,2.0
+9,"Giao hành nhanh, sản phẩm tốt","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+18,giao hàng nhanh!.,ship,3,4,5.0,4,5.0,4,5.0
+18,Hàng đẹpgiống trong ảnh,quality,1,2,5.0,2,5.0,2,5.0
+25,"Hài lòng, khâu đóng gói quá ư là cẩn thận: bọc xốp, lót chống xốc, đánh giá cao khâu đóng gói. Tuy nhiên nước rửa bát quảng cáo là nước rửa bát sinh học nhưng khi sử dụng lại thấy có mùi nhựa","ship, quality, price",5,"2,4",4.0,"2,4",4.0,"2,4",4.0
+10,"áo giao nhanh, đúng màu oke nhé shop",ship,5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+7,"đúng hình, chất đẹp",quality,4,2,5.0,2,5.0,2,5.0
+6,"Tuyệt vời lăm ạ, mùi thơm của bưởi vương trên tóc í. Hiệu quả rõ rệt trước và sau khi dùng, tóc mềm và mượt hẳn. Rất thích",quality,5,2,5.0,2,5.0,2,5.0
+15,xoay chuyển linh hoạt và chắc chắn,quality,5,2,5.0,2,5.0,2,5.0
+18,trong như HD.mát mắt ạ,quality,5,2,5.0,2,5.0,2,5.0
+4,"Âm thanh tốt nghe rõ, êm, mẫu mã ổn",quality,5,2,5.0,2,5.0,2,5.0
+15,Sản phẩm đạt chất lượng yêu cầu de dang su dung,quality,5,2,5.0,2,5.0,2,5.0
+0,Mới nhận sách nhưng thấy bị móp các cạnh như vậy là không vui rồi.,quality,3,4,2.0,"2,4",2.0,4,2.0
+23,Hàng Đẹp giao hàng nhanh,"ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+3,ok đã mua hàng của shop 2 lần giá rẻ hàng chính hãng,"quality, price",4,"2,3",5.0,"2,3",5.0,"2,3",5.0
+7,Đúng như hình,quality,5,2,5.0,2,5.0,2,5.0
+2,"Tiki giao hàng nhanh, chưa tới hai tiếng mình đã nhận hàng, nguyên seal, máy tác vụ hơi chậm nhưng so trong phân khúc giá rẻ thì quá oke","ship, quality, price",5,"2,3,4",5.0,"2,3,4",4.0,"2,3,4",4.0
+20,Vòng tay rất đẹp,quality,5,2,5.0,2,5.0,2,5.0
+16,form giày đẹp lắm ạ. đi rất thoải mái và êm chân,quality,5,2,5.0,2,5.0,2,5.0
+18,Sản phẩm rất đẹp rất đáng mua nhé,quality,5,2,5.0,2,5.0,2,5.0
+14,"Dép đi vừa và êm chân, mong lâu dài sẽ bền đẹp",quality,5,2,5.0,2,5.0,2,5.0
+3,"do dịch nên giao hàng rất lâu, bọc k có túi chống sóc nhưng k bị móp hộp","ship, quality",4,4,1.0,4,3.0,4,3.0
+13,"Sản phẩm ok, giao hàng bình thường, gói hàng cẩn thận","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+14,Hàng đẹp,quality,5,2,5.0,2,5.0,2,5.0
+9,Mua có chương trình tặng quà nhưng ko thấy đâu,quality,3,1,1.0,1,2.0,1,2.0
+0,"sản phẩm chuẩn, đẹp..!",quality,5,2,5.0,2,5.0,2,5.0
+13,"Giao siêu tốc, rất ổn định. 1 PC + Màn hình tầm 80W chạy ắc quy chắc dc khoảng 30-35 phút , đủ xài.",ship,5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+15,"Dễ lắp,kiểu dáng đẹp,mẫu đẹp,chất lượng như mộng đợi",quality,5,2,5.0,2,5.0,2,5.0
+10,Size ko nhu yeu cau. Yeu cau doi size ko thay ai ho tro,quality,2,"1,2",1.0,"1,2",2.0,"1,2",2.0
+6,Thời tiết thay đổi liên tục nên cần thấm bớt lớp nhờn để bảo vệ da và phụ kiện đeo mặt như mắt kính…,quality,5,2,5.0,2,3.0,2,3.0
+25,"Sản phẩm dùng rất tốt, không hại da tay , sẽ ủng hộ tiếp, đóng gói cẩn thận","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+19,"Đóng gói rất cẩn thận, ăn ngon! nhưng hơi đắt mà còn mất phí ship 40k.","ship, quality, price",5,"2,3,4",3.0,"2,3,4",4.0,"2,3,4",4.0
+25,"Mùi dễ chịu, rửa sạch, là hữu cơ nên yên tâm, mình dùng thấy không bị ăn da tay.",quality,5,2,5.0,2,5.0,2,5.0
+20,Đẹp thơm vừa tay hàng oke chất lượng oke đáo,quality,5,2,5.0,2,5.0,2,5.0
+9,sản phẩm chất lượng tốt giao hàng nhanh,"ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+23,"Giỏ đẹp, rất ưng ý",quality,5,2,5.0,2,5.0,2,5.0
+22,"Tốt, sử dụng nhanh tiện lợi",quality,5,2,5.0,2,5.0,2,5.0
+7,"Tư vấn nhiệt tình, dù phải qua tới Q7 để nhận xe nhưng mà cảm thấy rất hài lòng!","quality, cskh",5,1,5.0,1,5.0,1,5.0
+18,Tàm tạm. Size nhỏ. Giá có vẻ không tương xứng,price,3,"2,3",3.0,"2,3",3.0,"2,3",3.0
+20,"đẹp, nhìn rất ưng ý luôn",quality,5,2,5.0,2,5.0,2,5.0
+2,Mình dùng đọc sách file PDF và ghi chú đọc sách rất phù hợp. Mình không chơi game và chủ yếu đọc sách offline.,quality,5,2,5.0,2,5.0,2,5.0
+18,"giao ko đúng màu, rõ chán",ship,1,4,1.0,4,2.0,4,2.0
+22,Sản phẩm tốt chất lượng dịch vụ ok,"quality, cskh",5,"1,2",5.0,"1,2",5.0,"1,2",5.0
+9,Ngon luộc nhanh đã mua lại nhiều lần,quality,5,2,5.0,2,5.0,2,5.0
+0,"Sách mới, giao nhanh. Chữ rõ và nội dung cũng rất hịn ạ. Đọc xong mới cho review akakak","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+12,"Sách mới, bìa đẹp, nội dung rất hay, rất đáng tiền","quality, price",5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+18,"giao hàng nhanh, hàng cũng ok","ship, quality",5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+6,Nói chung là tiền nào của nấy sản phẩm thấm dầu khá kém mình dùng được vài lần rồi vứt sợ lên mụn :)),"quality, price",2,2.3,3.0,2,2.0,2.3,2.0
+11,"giao nhanh , đúng màu , chất lượng ok , đẹp","ship, quality",5,"2,3,4",5.0,"2,4",5.0,"2,3,4",5.0
+7,Chất lượng dịch vụ tốt,"quality, cskh",5,1,5.0,1,5.0,1,5.0
+15,Đẹp. Tiện lợi. Nhỏ gọn. An toàn cho người sử dụng,quality,5,2,5.0,2,5.0,2,5.0
+16,Giày rất xinh vừa vạn đẹp lắm nhé,quality,5,2,5.0,2,5.0,2,5.0
+19,cũng DC,quality,4,2,4.0,2,3.0,2,3.0
+13,Rất đẹp và đặt hàng tiếp lần 2,quality,5,2,5.0,2,5.0,2,5.0
+12,sách quá bé. giấy ko đẹp. ko như hình. yêu cầu trả hàng,quality,1,2,1.0,2,1.0,2,1.0
+5,"Tốt, săn đc giá rẻ. Giao hỏa tốc siêu nhanh","ship, quality, price",5,"2,3,4",5.0,"2,3,4",5.0,"2,3,4",5.0
+4,"Âm thanh nghe ổn, với giá tiền như vậy là cảm thấy ok rồi, sẽ ủng hộ nếu có nhu cầu cho lần mua tiếp theo","quality, price",4,"2,3",5.0,"2,3",5.0,"2,3",5.0
+14,"Hàng đúng như mô tả , da đẹp , mang rất êm chân , tiki phục vụ rất ok","quality, cskh",5,2,5.0,"1,2",5.0,2,5.0
+3,"Chính hãng, giao tỉnh lẻ mà siêu nhanh",ship,5,"2,4",5.0,"2,4",5.0,"2,4",5.0
+18,cực tốt luôn,quality,5,"1,2,3,4",5.0,"1,2,3,4",5.0,"1,2,3,4",5.0
+13,"Màn hình màu rất đẹp, độ tương phản rất tốt, đồng bộ với màn hình macbook, giá cũng tốt nữa, tuy nhiên giá rẻ hơn cũng có nhược điểm như không loa, không hỗ trợ sạc, không usb c, không nâng hạ xoay ngang, tuy nhiên không phải vấn đề lớn, nếu bạn cần màn hình 4k IPS đẹp rẻ tốt thì màn hình này rất xứng đáng. Độ phản hồi hơi chậm chút nhé Thu gọn","quality, price, cskh",5,"2,3",5.0,"2,3",4.0,"2,3",4.0
+7,Xe giá tốt nhất thị trường,"quality, price",5,3,5.0,"2,3",5.0,3,5.0
+18,Chất liệu đẹp.,quality,5,2,5.0,2,5.0,2,5.0
+4,"Âm thanh tốt, dây hơi ngắn",quality,4,2,4.0,2,4.0,2,4.0
+0,sách giao nhanh và đẹp lắm nha mng. mình xem rv thấy ổn áp nên mình mua,"ship, quality",5,"3,4",5.0,"2,4",5.0,"3,4",5.0
+3,"Tốt, bền, giá hợp lý","quality, price",5,"2,3",5.0,"2,3",5.0,"2,3",5.0
+4,"Tai nghe tốt, nghe êm tai",quality,5,2,5.0,2,5.0,2,5.0
+10,"chất liệu thô cứng, rất nóng, đàn hồi kém, vớ km dùng đc cho trẻ em","quality, price",1,2,3.0,2,2.0,2,2.0
+17,"Hình ảnh cũng ổn , xem rõ",quality,4,2,4.0,2,5.0,2,5.0
+4,"Tại nghe ổn fòng, gia tốt, phù hip",quality,5,"2,3",5.0,"2,3",5.0,"2,3",5.0
