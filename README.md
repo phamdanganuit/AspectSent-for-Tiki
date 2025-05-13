@@ -3,7 +3,7 @@
 <div align="center">
   <img src="https://salt.tikicdn.com/ts/upload/e4/49/6c/270be9859abd5f5ec5071da65fab0a94.png" alt="Tiki Logo" width="200"/>
   <h3>Hệ thống phân tích cảm xúc đánh giá sản phẩm dựa trên mô hình PhoBERT</h3>
-  <p><em>Dự án môn học DS221 - Xử lý ngôn ngữ tự nhiên</em></p>
+  <p><em>Đồ án môn học DS221 - Xử lý ngôn ngữ tự nhiên</em></p>
 </div>
 
 ## 📋 Tổng quan
