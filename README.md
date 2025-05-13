@@ -1,4 +1,4 @@
-# Dự án Phân tích Cảm xúc Đánh giá Sản phẩm Tiki
+# Dự án Phân tích Đánh giá Sản phẩm Tiki
 
 <div align="center">
   <img src="https://salt.tikicdn.com/ts/upload/e4/49/6c/270be9859abd5f5ec5071da65fab0a94.png" alt="Tiki Logo" width="200"/>
