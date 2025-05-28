@@ -1,0 +1,4 @@
+LSTM Sentiment Accuracy: 0.7569
+CNN Sentiment Accuracy: 0.7591
+LSTM Aspect Accuracy: 0.4225
+CNN Aspect Accuracy: 0.7057

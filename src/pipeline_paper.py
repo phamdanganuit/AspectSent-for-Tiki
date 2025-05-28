@@ -25,7 +25,7 @@ DATA_PATH = BASE_DIR / "data" / "Gold" / "finetuning_metadata.csv"
 OUTPUT_DIR = BASE_DIR / "results"
 OUTPUT_PATH = OUTPUT_DIR / "classification_results.txt"
 MODEL_DIR = BASE_DIR / "models"
-EP = 30  # Số epoch huấn luyện
+EP = 20  # Số epoch huấn luyện
 
 # Kiểm tra file tồn tại
 if not STOPWORDS_PATH.exists():
