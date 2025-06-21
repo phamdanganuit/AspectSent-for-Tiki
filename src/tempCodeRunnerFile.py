@@ -1,0 +1,1 @@
+# Define MAX_LEN and WORD_EMBEDDING_DIM directly if the constants module is unavailable
