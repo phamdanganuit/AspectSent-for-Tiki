@@ -137,14 +137,13 @@ pip install -r requirements.txt
 
 ### Bước 4: Tải mô hình
 
-Mô hình đã được huấn luyện sẵn có thể tải từ Google Drive:
+Mô hình đã được huấn luyện sẵn có thể tải từ Google Drive:[Here](https://drive.google.com/drive/folders/1xPzW1QtjgUnX8JZbz6HTZoc_3rDoGOCr?usp=sharing)
 
 ```bash
 # Tạo thư mục chứa mô hình
 mkdir -p models/phobert_finetuned
 
 # Tải mô hình đã huấn luyện từ Google Drive
-# Link tải: https://drive.google.com/drive/folders/1xPzW1QtjgUnX8JZbz6HTZoc_3rDoGOCr?usp=sharing
 # Sau khi tải xuống, đặt file best_model.pt vào thư mục models/phobert_finetuned/
 ```
 
